@@ -1,0 +1,64 @@
+{
+	"category": "layout",
+	"group": "masonry",
+	"condition": {
+		"type": "=",
+		"setting": "option-columns",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/masonry-layouts/"
+	},
+	"classes": {
+		"masonry--1": {
+			"variants": {
+				"masonry--xs-1": {},
+				"masonry--s-1": {},
+				"masonry--m-1": {},
+				"masonry--l-1": {},
+				"masonry--xl-1": {},
+				"masonry--xxl-1": {}
+			}
+		},
+		"masonry--2": {
+			"variants": {
+				"masonry--xs-2": {},
+				"masonry--s-2": {},
+				"masonry--m-2": {},
+				"masonry--l-2": {},
+				"masonry--xl-2": {},
+				"masonry--xxl-2": {}
+			}
+		},
+		"masonry--3": {
+			"variants": {
+				"masonry--xs-3": {},
+				"masonry--s-3": {},
+				"masonry--m-3": {},
+				"masonry--l-3": {},
+				"masonry--xl-3": {},
+				"masonry--xxl-3": {}
+			}
+		},
+		"masonry--4": {
+			"variants": {
+				"masonry--xs-4": {},
+				"masonry--s-4": {},
+				"masonry--m-4": {},
+				"masonry--l-4": {},
+				"masonry--xl-4": {},
+				"masonry--xxl-4": {}
+			}
+		},
+		"masonry--5": {
+			"variants": {
+				"masonry--xs-5": {},
+				"masonry--s-5": {},
+				"masonry--m-5": {},
+				"masonry--l-5": {},
+				"masonry--xl-5": {},
+				"masonry--xxl-5": {}
+			}
+		}
+	}
+}

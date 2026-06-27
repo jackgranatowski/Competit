@@ -1,0 +1,111 @@
+{
+	"category": "list-marker",
+	"group": "marker",
+	"condition": {
+		"type": "=",
+		"setting": "option-lists-markers",
+		"value": "on"
+	},
+	"class_groups": {
+		"primary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-primary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"marker--primary": {},
+				"marker--primary-hover": {},
+				"marker--primary-ultra-light": {},
+				"marker--primary-light": {},
+				"marker--primary-semi-light": {},
+				"marker--primary-semi-dark": {},
+				"marker--primary-dark": {},
+				"marker--primary-ultra-dark": {},
+				"marker--primary-comp": {}
+			}
+		},
+		"secondary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-secondary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"marker--secondary": {},
+				"marker--secondary-hover": {},
+				"marker--secondary-ultra-light": {},
+				"marker--secondary-light": {},
+				"marker--secondary-semi-light": {},
+				"marker--secondary-semi-dark": {},
+				"marker--secondary-dark": {},
+				"marker--secondary-ultra-dark": {},
+				"marker--secondary-comp": {}
+			}
+		},
+		"accent": {
+			"condition": {
+				"type": "=",
+				"setting": "option-accent-clr",
+				"value": "on"
+			},
+			"classes": {
+				"marker--accent": {},
+				"marker--accent-hover": {},
+				"marker--accent-ultra-light": {},
+				"marker--accent-light": {},
+				"marker--accent-semi-light": {},
+				"marker--accent-semi-dark": {},
+				"marker--accent-dark": {},
+				"marker--accent-ultra-dark": {},
+				"marker--accent-comp": {}
+			}
+		},
+		"base": {
+			"condition": {
+				"type": "=",
+				"setting": "option-base-clr",
+				"value": "on"
+			},
+			"classes": {
+				"marker--base": {},
+				"marker--base-hover": {},
+				"marker--base-ultra-light": {},
+				"marker--base-light": {},
+				"marker--base-semi-light": {},
+				"marker--base-semi-dark": {},
+				"marker--base-dark": {},
+				"marker--base-ultra-dark": {},
+				"marker--base-comp": {}
+			}
+		},
+		"neutral": {
+			"condition": {
+				"type": "=",
+				"setting": "option-neutral-clr",
+				"value": "on"
+			},
+			"classes": {
+				"marker--neutral": {},
+				"marker--neutral-hover": {},
+				"marker--neutral-ultra-light": {},
+				"marker--neutral-light": {},
+				"marker--neutral-semi-light": {},
+				"marker--neutral-semi-dark": {},
+				"marker--neutral-dark": {},
+				"marker--neutral-ultra-dark": {},
+				"marker--neutral-comp": {}
+			}
+		},
+		"white": {
+			"classes": {
+				"marker--white": {}
+			}
+		},
+		"black": {
+			"classes": {
+				"marker--black": {}
+			}
+		}
+	}
+}

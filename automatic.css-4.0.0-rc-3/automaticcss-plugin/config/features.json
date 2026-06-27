@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Buttons",
+		"category": "button-link",
+		"description": "A fully tokenized button system with size variants, outline styles, and automatic palette-driven color variants. Configure once and every button across your site stays consistent.",
+		"example": "<a class=\"btn--primary\">Primary Action</a>\n<a class=\"btn--secondary btn--outline\">Secondary</a>\n<a class=\"btn--primary btn--l\">Large Button</a>",
+		"doc_url": "https://automaticcss.com/docs/button-classes/"
+	},
+	{
+		"name": "Links",
+		"category": "button-link",
+		"description": "Global link color and hover behavior tied to your palette. Apply contextual link colors with utility classes — no manual hex codes or style overrides.",
+		"example": "<a class=\"link--primary\">Primary Link</a>\n<a class=\"link--secondary\">Secondary Link</a>",
+		"doc_url": "https://automaticcss.com/docs/links/"
+	},
+	{
+		"name": "Color Palette",
+		"category": "color",
+		"description": "Define your brand colors once. ACSS auto-generates shades, hover states, and dark mode variants for every color in your palette.",
+		"example": ":root {\n  --primary: oklch(55% 0.2 250);\n  --primary-hover: oklch(48% 0.2 250);\n  --primary-light: oklch(95% 0.03 250);\n  --primary-dark: oklch(25% 0.1 250);\n  /* ...shades for every color */\n}",
+		"doc_url": null
+	},
+	{
+		"name": "Fluid Spacing Scale",
+		"category": "spacing",
+		"description": "A complete spacing system that scales fluidly between viewport sizes. Use the variables for padding, margin, and gap — everything stays proportional without breakpoints.",
+		"example": ":root {\n  --space-xs: clamp(...);\n  --space-s:  clamp(...);\n  --space-m:  clamp(...);\n  --space-l:  clamp(...);\n  --space-xl: clamp(...);\n  --space-xxl: clamp(...);\n}",
+		"doc_url": null
+	},
+	{
+		"name": "Smart Spacing",
+		"category": "spacing",
+		"description": "Automatic vertical rhythm between elements. Headings, paragraphs, lists, and figures all get consistent spacing without you touching a single margin.",
+		"example": "/* Automatic — no classes needed */\n.smart-spacing > * + * {\n  margin-block-start: var(--flow-spacing);\n}\n.smart-spacing > :is(h1,h2,h3,h4,h5,h6) {\n  margin-block-start: var(--heading-spacing);\n}",
+		"doc_url": "https://automaticcss.com/docs/smart-spacing/"
+	}
+]

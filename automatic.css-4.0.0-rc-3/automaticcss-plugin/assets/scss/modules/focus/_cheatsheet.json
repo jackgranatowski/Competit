@@ -1,0 +1,111 @@
+{
+	"category": "accessibility",
+	"group": "focus",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/focus-classes/"
+	},
+	"vars": {
+		"focus-color": {},
+		"focus-width": {},
+		"focus-offset": {}
+	},
+	"class_groups": {
+		"primary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-primary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"focus--primary-ultra-dark": {},
+				"focus--primary-dark": {},
+				"focus--primary-semi-dark": {},
+				"focus--primary": {},
+				"focus--primary-semi-light": {},
+				"focus--primary-light": {},
+				"focus--primary-ultra-light": {}
+			}
+		},
+		"secondary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-secondary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"focus--secondary-ultra-dark": {},
+				"focus--secondary-dark": {},
+				"focus--secondary-semi-dark": {},
+				"focus--secondary": {},
+				"focus--secondary-semi-light": {},
+				"focus--secondary-light": {},
+				"focus--secondary-ultra-light": {}
+			}
+		},
+		"accent": {
+			"condition": {
+				"type": "=",
+				"setting": "option-accent-clr",
+				"value": "on"
+			},
+			"classes": {
+				"focus--accent-ultra-dark": {},
+				"focus--accent-dark": {},
+				"focus--accent-semi-dark": {},
+				"focus--accent": {},
+				"focus--accent-semi-light": {},
+				"focus--accent-light": {},
+				"focus--accent-ultra-light": {}
+			}
+		},
+		"base": {
+			"condition": {
+				"type": "=",
+				"setting": "option-base-clr",
+				"value": "on"
+			},
+			"classes": {
+				"focus--base-ultra-dark": {},
+				"focus--base-dark": {},
+				"focus--base-semi-dark": {},
+				"focus--base": {},
+				"focus--base-semi-light": {},
+				"focus--base-light": {},
+				"focus--base-ultra-light": {}
+			}
+		},
+		"neutral": {
+			"condition": {
+				"type": "=",
+				"setting": "option-neutral-clr",
+				"value": "on"
+			},
+			"classes": {
+				"focus--neutral-ultra-dark": {},
+				"focus--neutral-dark": {},
+				"focus--neutral-semi-dark": {},
+				"focus--neutral": {},
+				"focus--neutral-semi-light": {},
+				"focus--neutral-light": {},
+				"focus--neutral-ultra-light": {}
+			}
+		},
+		"black": {
+			"classes": {
+				"focus--black": {}
+			}
+		},
+		"white": {
+			"classes": {
+				"focus--white": {}
+			}
+		},
+		"focus-parent": {
+			"classes": {
+				"focus-parent": {},
+				"focus-parent--shadow": {},
+				"focus-parent--outline": {}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"category": "layout",
+	"group": "contain",
+	"condition": {
+		"type": "=",
+		"setting": "option-container-queries",
+		"value": "on"
+	},
+	"classes": {
+		"contain": {}
+	}
+}

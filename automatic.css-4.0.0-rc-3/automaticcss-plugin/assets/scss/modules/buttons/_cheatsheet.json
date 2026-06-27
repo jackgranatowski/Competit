@@ -1,0 +1,62 @@
+{
+	"category": "button-link",
+	"group": "button",
+	"feature": {
+		"name": "Buttons",
+		"description": "A fully tokenized button system with size variants, outline styles, and automatic palette-driven color variants. Configure once and every button across your site stays consistent.",
+		"example": "<a class=\"btn--primary\">Primary Action</a>\n<a class=\"btn--secondary btn--outline\">Secondary</a>\n<a class=\"btn--primary btn--l\">Large Button</a>"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/button-classes/",
+		"variable_documentation": "https://automaticcss.com/docs/button-variables/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-buttons",
+		"value": "on"
+	},
+	"vars": {
+		"btn-padding-block": {},
+		"btn-padding-inline": {},
+		"btn-min-width": {},
+		"btn-line-height": {},
+		"btn-font-weight": {},
+		"btn-font-style": {},
+		"btn-text-decoration": {},
+		"btn-text-decoration-hover": {},
+		"btn-letter-spacing": {},
+		"btn-text-transform": {},
+		"btn-border-width": {},
+		"btn-border-style": {},
+		"btn-border-radius": {},
+		"btn-transition-duration": {}
+	},
+	"color_classes_template": {
+		"prefix": "btn",
+		"main": ["primary", "secondary", "tertiary", "accent", "base", "neutral"],
+		"bw": ["black", "white"],
+		"shades": ["light", "dark"],
+		"extras": {
+			"contextual utility": {
+				"classes": {
+					"btn--outline": {
+						"documentation_links": {
+							"default_documentation": "https://automaticcss.com/docs/outline-buttons/"
+						}
+					},
+					"btn--clear": {}
+				}
+			},
+			"button sizes": {
+				"classes": {
+					"btn--xs": {},
+					"btn--s": {},
+					"btn--m": {},
+					"btn--l": {},
+					"btn--xl": {},
+					"btn--xxl": {}
+				}
+			}
+		}
+	}
+}

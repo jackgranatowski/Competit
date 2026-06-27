@@ -1,0 +1,15 @@
+{
+	"category": "layout",
+	"group": "variable grid",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/variable-grid/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-variable-grid",
+		"value": "on"
+	},
+	"classes": {
+		"variable-grid": {}
+	}
+}

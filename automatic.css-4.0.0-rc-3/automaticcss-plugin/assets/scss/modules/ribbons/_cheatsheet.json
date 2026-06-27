@@ -1,0 +1,20 @@
+{
+	"category": "additional-styling",
+	"group": "ribbon",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/ribbons/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-corner-ribbons",
+		"value": "on"
+	},
+	"classes": {
+		"ribbon": {
+			"variants": {
+				"ribbon--top-left": {},
+				"ribbon--top-right": {}
+			}
+		}
+	}
+}

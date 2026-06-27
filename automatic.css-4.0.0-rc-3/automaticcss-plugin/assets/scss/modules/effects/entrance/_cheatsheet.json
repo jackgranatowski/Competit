@@ -1,0 +1,35 @@
+{
+	"category": "additional-styling",
+	"group": "entrance-effects",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/entrance-animations/"
+	},
+	"classes": {
+		"on-enter--fade": {},
+		"on-enter--float": {},
+		"on-enter--sink": {},
+		"on-enter--slide-left": {},
+		"on-enter--slide-right": {},
+		"on-enter--grow": {},
+		"on-enter--shrink": {},
+		"on-enter--blur": {},
+		"on-enter--parallax": {},
+		"on-enter--stagger": {}
+	},
+	"vars": {
+		"scroll-animation-duration": {},
+		"scroll-animation-timing": {},
+		"scroll-animation-delay": {},
+		"animate-range-start": {},
+		"animate-range-end": {},
+		"enter-opacity-start": {},
+		"enter-float-distance": {},
+		"enter-sink-distance": {},
+		"enter-slide-distance": {},
+		"enter-scale-start": {},
+		"enter-shrink-start": {},
+		"enter-blur-amount": {},
+		"enter-parallax-distance": {},
+		"enter-stagger-interval": {}
+	}
+}

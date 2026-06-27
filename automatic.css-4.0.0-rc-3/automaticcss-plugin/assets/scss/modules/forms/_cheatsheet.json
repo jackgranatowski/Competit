@@ -1,0 +1,13 @@
+{
+	"category": "additional-styling",
+	"group": "form",
+	"condition": {
+		"type": "=",
+		"setting": "option-forms",
+		"value": "on"
+	},
+	"classes": {
+		"form--light": {},
+		"form--dark": {}
+	}
+}

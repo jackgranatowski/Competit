@@ -1,0 +1,12 @@
+{
+	"category": "layout",
+	"group": "isolation",
+	"condition": {
+		"type": "=",
+		"setting": "option-z-index",
+		"value": "on"
+	},
+	"classes": {
+		"isolation--isolate": {}
+	}
+}

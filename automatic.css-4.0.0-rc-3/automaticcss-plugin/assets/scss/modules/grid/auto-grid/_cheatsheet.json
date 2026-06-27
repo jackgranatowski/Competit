@@ -1,0 +1,62 @@
+{
+	"category": "layout",
+	"group": "grid auto",
+	"condition": {
+		"type": "=",
+		"setting": "option-auto-grid",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/auto-grids/"
+	},
+	"classes": {
+		"grid--auto-2": {},
+		"grid--auto-3": {},
+		"grid--auto-4": {},
+		"grid--auto-5": {},
+		"grid--auto-6": {},
+		"grid--auto-7": {},
+		"grid--auto-8": {},
+		"grid--auto-9": {},
+		"grid--auto-10": {},
+		"grid--auto-11": {},
+		"grid--auto-12": {},
+		"grid--auto-1-2": {},
+		"grid--auto-1-3": {},
+		"grid--auto-2-1": {},
+		"grid--auto-2-3": {},
+		"grid--auto-3-1": {},
+		"grid--auto-3-2": {},
+		"grid--auto-rows": {},
+		"grid--auto-fill": {},
+		"grid--auto-fit": {},
+		"grid--stack-even": {},
+		"grid--stack-even-xxl": {},
+		"grid--stack-even-xl": {},
+		"grid--stack-even-l": {},
+		"grid--stack-even-m": {},
+		"grid--stack-even-s": {},
+		"grid--stack-even-xs": {},
+		"grid--stack-any": {},
+		"grid--stack-any-xxl": {},
+		"grid--stack-any-xl": {},
+		"grid--stack-any-l": {},
+		"grid--stack-any-m": {},
+		"grid--stack-any-s": {},
+		"grid--stack-any-xs": {}
+	},
+	"vars": {
+		"grid-auto-2": {},
+		"grid-auto-3": {},
+		"grid-auto-4": {},
+		"grid-auto-5": {},
+		"grid-auto-6": {},
+		"grid-auto-7": {},
+		"grid-auto-8": {},
+		"grid-auto-9": {},
+		"grid-auto-10": {},
+		"grid-auto-11": {},
+		"grid-auto-12": {},
+		"auto-grid-aggressiveness": {}
+	}
+}

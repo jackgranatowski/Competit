@@ -1,0 +1,32 @@
+{
+	"category": "additional-styling",
+	"group": "visible-effects",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/visible-animations/"
+	},
+	"classes": {
+		"on-visible--fade": {},
+		"on-visible--float": {},
+		"on-visible--sink": {},
+		"on-visible--slide-left": {},
+		"on-visible--slide-right": {},
+		"on-visible--grow": {},
+		"on-visible--shrink": {},
+		"on-visible--blur": {},
+		"on-visible--stagger": {}
+	},
+	"vars": {
+		"visible-duration": {},
+		"visible-timing": {},
+		"visible-delay": {},
+		"visible-threshold": {},
+		"visible-opacity-start": {},
+		"visible-float-distance": {},
+		"visible-sink-distance": {},
+		"visible-slide-distance": {},
+		"visible-scale-start": {},
+		"visible-shrink-start": {},
+		"visible-blur-amount": {},
+		"visible-stagger-interval": {}
+	}
+}

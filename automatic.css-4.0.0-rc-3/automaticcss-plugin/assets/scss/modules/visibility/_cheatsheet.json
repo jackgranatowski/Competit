@@ -1,0 +1,34 @@
+{
+	"category": "layout",
+	"group": "visibility",
+	"condition": {
+		"type": "=",
+		"setting": "option-visibility",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/visibility-classes/"
+	},
+	"classes": {
+		"visibility--hidden": {
+			"variants": {
+				"visibility--xs-hidden": {},
+				"visibility--s-hidden": {},
+				"visibility--m-hidden": {},
+				"visibility--l-hidden": {},
+				"visibility--xl-hidden": {},
+				"visibility--xxl-hidden": {}
+			}
+		},
+		"visibility--visible": {
+			"variants": {
+				"visibility--xs-visible": {},
+				"visibility--s-visible": {},
+				"visibility--m-visible": {},
+				"visibility--l-visible": {},
+				"visibility--xl-visible": {},
+				"visibility--xxl-visible": {}
+			}
+		}
+	}
+}

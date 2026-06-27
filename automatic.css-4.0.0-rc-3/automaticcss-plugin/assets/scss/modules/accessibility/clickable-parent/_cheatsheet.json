@@ -1,0 +1,10 @@
+{
+	"category": "accessibility",
+	"group": "clickable-parent",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/clickable-parent/"
+	},
+	"classes": {
+		"clickable-parent": {}
+	}
+}

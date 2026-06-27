@@ -1,0 +1,32 @@
+{
+	"category": "icons",
+	"group": "icons",
+	"classes": {
+		"icon-list": {},
+		"icon--boxed": {},
+		"icon--plain": {},
+		"icon--xs": {
+			"condition": {
+				"type": "=",
+				"setting": "option-expand-icon-sizes",
+				"value": "on"
+			}
+		},
+		"icon--s": {},
+		"icon--m": {},
+		"icon--l": {},
+		"icon--xl": {
+			"condition": {
+				"type": "=",
+				"setting": "option-expand-icon-sizes",
+				"value": "on"
+			}
+		},
+		"icon--2xl": {}
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-icons",
+		"value": "on"
+	}
+}

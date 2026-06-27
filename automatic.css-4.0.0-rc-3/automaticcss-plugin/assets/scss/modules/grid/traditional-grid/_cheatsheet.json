@@ -1,0 +1,923 @@
+{
+	"category": "layout",
+	"group": "grid",
+	"condition": {
+		"type": "=",
+		"setting": "option-grid",
+		"value": "on"
+	},
+	"class_groups": {
+		"grid": {
+			"documentation_links": {
+				"variable_documentation": "https://automaticcss.com/docs/grid-variables/",
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"vars": {
+				"grid-1": {},
+				"grid-2": {},
+				"grid-3": {},
+				"grid-4": {},
+				"grid-5": {},
+				"grid-6": {},
+				"grid-7": {},
+				"grid-8": {},
+				"grid-9": {},
+				"grid-10": {},
+				"grid-11": {},
+				"grid-12": {}
+			},
+			"classes": {
+				"grid--1": {
+					"variants": {
+						"grid--s-1": {},
+						"grid--m-1": {},
+						"grid--l-1": {},
+						"grid--xl-1": {},
+						"grid--xxl-1": {}
+					}
+				},
+				"grid--2": {
+					"variants": {
+						"grid--s-2": {},
+						"grid--m-2": {},
+						"grid--l-2": {},
+						"grid--xl-2": {},
+						"grid--xxl-2": {}
+					}
+				},
+				"grid--3": {
+					"variants": {
+						"grid--s-3": {},
+						"grid--m-3": {},
+						"grid--l-3": {},
+						"grid--xl-3": {},
+						"grid--xxl-3": {}
+					}
+				},
+				"grid--4": {
+					"variants": {
+						"grid--s-4": {},
+						"grid--m-4": {},
+						"grid--l-4": {},
+						"grid--xl-4": {},
+						"grid--xxl-4": {}
+					}
+				},
+				"grid--5": {
+					"variants": {
+						"grid--s-5": {},
+						"grid--m-5": {},
+						"grid--l-5": {},
+						"grid--xl-5": {},
+						"grid--xxl-5": {}
+					}
+				},
+				"grid--6": {
+					"variants": {
+						"grid--s-6": {},
+						"grid--m-6": {},
+						"grid--l-6": {},
+						"grid--xl-6": {},
+						"grid--xxl-6": {}
+					}
+				},
+				"grid--7": {
+					"variants": {
+						"grid--s-7": {},
+						"grid--m-7": {},
+						"grid--l-7": {},
+						"grid--xl-7": {},
+						"grid--xxl-7": {}
+					}
+				},
+				"grid--8": {
+					"variants": {
+						"grid--s-8": {},
+						"grid--m-8": {},
+						"grid--l-8": {},
+						"grid--xl-8": {},
+						"grid--xxl-8": {}
+					}
+				},
+				"grid--9": {
+					"variants": {
+						"grid--s-9": {},
+						"grid--m-9": {},
+						"grid--l-9": {},
+						"grid--xl-9": {},
+						"grid--xxl-9": {}
+					}
+				},
+				"grid--10": {
+					"variants": {
+						"grid--s-10": {},
+						"grid--m-10": {},
+						"grid--l-10": {},
+						"grid--xl-10": {},
+						"grid--xxl-10": {}
+					}
+				},
+				"grid--11": {
+					"variants": {
+						"grid--s-11": {},
+						"grid--m-11": {},
+						"grid--l-11": {},
+						"grid--xl-11": {},
+						"grid--xxl-11": {}
+					}
+				},
+				"grid--12": {
+					"variants": {
+						"grid--s-12": {},
+						"grid--m-12": {},
+						"grid--l-12": {},
+						"grid--xl-12": {},
+						"grid--xxl-12": {}
+					}
+				}
+			}
+		},
+		"grid-uneven": {
+			"documentation_links": {
+				"variable_documentation": "https://automaticcss.com/docs/grid-variables/",
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"grid--1-2": {},
+				"grid--1-3": {},
+				"grid--2-1": {},
+				"grid--2-3": {},
+				"grid--3-1": {},
+				"grid--3-2": {}
+			},
+			"vars": {
+				"grid-1-2": {},
+				"grid-1-3": {},
+				"grid-2-1": {},
+				"grid-2-3": {},
+				"grid-3-1": {},
+				"grid-3-2": {}
+			}
+		},
+		"grid-alternate": {
+			"documentation_links": {
+				"default_documentation": "https://automaticcss.com/docs/auto-alternating-grids/"
+			},
+			"classes": {
+				"grid--alternate-s": {},
+				"grid--alternate-m": {},
+				"grid--alternate-l": {},
+				"grid--alternate-xl": {}
+			}
+		},
+		"col-start": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"col-start--1": {
+					"variants": {
+						"col-start--s-1": {},
+						"col-start--m-1": {},
+						"col-start--l-1": {},
+						"col-start--xl-1": {},
+						"col-start--xxl-1": {}
+					}
+				},
+				"col-start--2": {
+					"variants": {
+						"col-start--s-2": {},
+						"col-start--m-2": {},
+						"col-start--l-2": {},
+						"col-start--xl-2": {},
+						"col-start--xxl-2": {}
+					}
+				},
+				"col-start--3": {
+					"variants": {
+						"col-start--s-3": {},
+						"col-start--m-3": {},
+						"col-start--l-3": {},
+						"col-start--xl-3": {},
+						"col-start--xxl-3": {}
+					}
+				},
+				"col-start--4": {
+					"variants": {
+						"col-start--s-4": {},
+						"col-start--m-4": {},
+						"col-start--l-4": {},
+						"col-start--xl-4": {},
+						"col-start--xxl-4": {}
+					}
+				},
+				"col-start--5": {
+					"variants": {
+						"col-start--s-5": {},
+						"col-start--m-5": {},
+						"col-start--l-5": {},
+						"col-start--xl-5": {},
+						"col-start--xxl-5": {}
+					}
+				},
+				"col-start--6": {
+					"variants": {
+						"col-start--s-6": {},
+						"col-start--m-6": {},
+						"col-start--l-6": {},
+						"col-start--xl-6": {},
+						"col-start--xxl-6": {}
+					}
+				},
+				"col-start--7": {
+					"variants": {
+						"col-start--s-7": {},
+						"col-start--m-7": {},
+						"col-start--l-7": {},
+						"col-start--xl-7": {},
+						"col-start--xxl-7": {}
+					}
+				},
+				"col-start--8": {
+					"variants": {
+						"col-start--s-8": {},
+						"col-start--m-8": {},
+						"col-start--l-8": {},
+						"col-start--xl-8": {},
+						"col-start--xxl-8": {}
+					}
+				},
+				"col-start--9": {
+					"variants": {
+						"col-start--s-9": {},
+						"col-start--m-9": {},
+						"col-start--l-9": {},
+						"col-start--xl-9": {},
+						"col-start--xxl-9": {}
+					}
+				},
+				"col-start--10": {
+					"variants": {
+						"col-start--s-10": {},
+						"col-start--m-10": {},
+						"col-start--l-10": {},
+						"col-start--xl-10": {},
+						"col-start--xxl-10": {}
+					}
+				},
+				"col-start--11": {
+					"variants": {
+						"col-start--s-11": {},
+						"col-start--m-11": {},
+						"col-start--l-11": {},
+						"col-start--xl-11": {},
+						"col-start--xxl-11": {}
+					}
+				},
+				"col-start--12": {
+					"variants": {
+						"col-start--s-12": {},
+						"col-start--m-12": {},
+						"col-start--l-12": {},
+						"col-start--xl-12": {},
+						"col-start--xxl-12": {}
+					}
+				}
+			}
+		},
+		"col-end": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"col-end--1": {
+					"variants": {
+						"col-end--s-1": {},
+						"col-end--m-1": {},
+						"col-end--l-1": {},
+						"col-end--xl-1": {},
+						"col-end--xxl-1": {}
+					}
+				},
+				"col-end--2": {
+					"variants": {
+						"col-end--s-2": {},
+						"col-end--m-2": {},
+						"col-end--l-2": {},
+						"col-end--xl-2": {},
+						"col-end--xxl-2": {}
+					}
+				},
+				"col-end--3": {
+					"variants": {
+						"col-end--s-3": {},
+						"col-end--m-3": {},
+						"col-end--l-3": {},
+						"col-end--xl-3": {},
+						"col-end--xxl-3": {}
+					}
+				},
+				"col-end--4": {
+					"variants": {
+						"col-end--s-4": {},
+						"col-end--m-4": {},
+						"col-end--l-4": {},
+						"col-end--xl-4": {},
+						"col-end--xxl-4": {}
+					}
+				},
+				"col-end--5": {
+					"variants": {
+						"col-end--s-5": {},
+						"col-end--m-5": {},
+						"col-end--l-5": {},
+						"col-end--xl-5": {},
+						"col-end--xxl-5": {}
+					}
+				},
+				"col-end--6": {
+					"variants": {
+						"col-end--s-6": {},
+						"col-end--m-6": {},
+						"col-end--l-6": {},
+						"col-end--xl-6": {},
+						"col-end--xxl-6": {}
+					}
+				},
+				"col-end--7": {
+					"variants": {
+						"col-end--s-7": {},
+						"col-end--m-7": {},
+						"col-end--l-7": {},
+						"col-end--xl-7": {},
+						"col-end--xxl-7": {}
+					}
+				},
+				"col-end--8": {
+					"variants": {
+						"col-end--s-8": {},
+						"col-end--m-8": {},
+						"col-end--l-8": {},
+						"col-end--xl-8": {},
+						"col-end--xxl-8": {}
+					}
+				},
+				"col-end--9": {
+					"variants": {
+						"col-end--s-9": {},
+						"col-end--m-9": {},
+						"col-end--l-9": {},
+						"col-end--xl-9": {},
+						"col-end--xxl-9": {}
+					}
+				},
+				"col-end--10": {
+					"variants": {
+						"col-end--s-10": {},
+						"col-end--m-10": {},
+						"col-end--l-10": {},
+						"col-end--xl-10": {},
+						"col-end--xxl-10": {}
+					}
+				},
+				"col-end--11": {
+					"variants": {
+						"col-end--s-11": {},
+						"col-end--m-11": {},
+						"col-end--l-11": {},
+						"col-end--xl-11": {},
+						"col-end--xxl-11": {}
+					}
+				},
+				"col-end--12": {
+					"variants": {
+						"col-end--s-12": {},
+						"col-end--m-12": {},
+						"col-end--l-12": {},
+						"col-end--xl-12": {},
+						"col-end--xxl-12": {}
+					}
+				},
+				"col-end--last": {
+					"variants": {
+						"col-end--s-last": {},
+						"col-end--m-last": {},
+						"col-end--l-last": {},
+						"col-end--xl-last": {},
+						"col-end--xxl-last": {}
+					}
+				}
+			}
+		},
+		"row-start": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"row-start--1": {
+					"variants": {
+						"row-start--s-1": {},
+						"row-start--m-1": {},
+						"row-start--l-1": {},
+						"row-start--xl-1": {},
+						"row-start--xxl-1": {}
+					}
+				},
+				"row-start--2": {
+					"variants": {
+						"row-start--s-2": {},
+						"row-start--m-2": {},
+						"row-start--l-2": {},
+						"row-start--xl-2": {},
+						"row-start--xxl-2": {}
+					}
+				},
+				"row-start--3": {
+					"variants": {
+						"row-start--s-3": {},
+						"row-start--m-3": {},
+						"row-start--l-3": {},
+						"row-start--xl-3": {},
+						"row-start--xxl-3": {}
+					}
+				},
+				"row-start--4": {
+					"variants": {
+						"row-start--s-4": {},
+						"row-start--m-4": {},
+						"row-start--l-4": {},
+						"row-start--xl-4": {},
+						"row-start--xxl-4": {}
+					}
+				},
+				"row-start--5": {
+					"variants": {
+						"row-start--s-5": {},
+						"row-start--m-5": {},
+						"row-start--l-5": {},
+						"row-start--xl-5": {},
+						"row-start--xxl-5": {}
+					}
+				},
+				"row-start--6": {
+					"variants": {
+						"row-start--s-6": {},
+						"row-start--m-6": {},
+						"row-start--l-6": {},
+						"row-start--xl-6": {},
+						"row-start--xxl-6": {}
+					}
+				},
+				"row-start--7": {
+					"variants": {
+						"row-start--s-7": {},
+						"row-start--m-7": {},
+						"row-start--l-7": {},
+						"row-start--xl-7": {},
+						"row-start--xxl-7": {}
+					}
+				},
+				"row-start--8": {
+					"variants": {
+						"row-start--s-8": {},
+						"row-start--m-8": {},
+						"row-start--l-8": {},
+						"row-start--xl-8": {},
+						"row-start--xxl-8": {}
+					}
+				},
+				"row-start--9": {
+					"variants": {
+						"row-start--s-9": {},
+						"row-start--m-9": {},
+						"row-start--l-9": {},
+						"row-start--xl-9": {},
+						"row-start--xxl-9": {}
+					}
+				},
+				"row-start--10": {
+					"variants": {
+						"row-start--s-10": {},
+						"row-start--m-10": {},
+						"row-start--l-10": {},
+						"row-start--xl-10": {},
+						"row-start--xxl-10": {}
+					}
+				},
+				"row-start--11": {
+					"variants": {
+						"row-start--s-11": {},
+						"row-start--m-11": {},
+						"row-start--l-11": {},
+						"row-start--xl-11": {},
+						"row-start--xxl-11": {}
+					}
+				},
+				"row-start--12": {
+					"variants": {
+						"row-start--s-12": {},
+						"row-start--m-12": {},
+						"row-start--l-12": {},
+						"row-start--xl-12": {},
+						"row-start--xxl-12": {}
+					}
+				}
+			}
+		},
+		"row-end": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"row-end--1": {
+					"variants": {
+						"row-end--s-1": {},
+						"row-end--m-1": {},
+						"row-end--l-1": {},
+						"row-end--xl-1": {},
+						"row-end--xxl-1": {}
+					}
+				},
+				"row-end--2": {
+					"variants": {
+						"row-end--s-2": {},
+						"row-end--m-2": {},
+						"row-end--l-2": {},
+						"row-end--xl-2": {},
+						"row-end--xxl-2": {}
+					}
+				},
+				"row-end--3": {
+					"variants": {
+						"row-end--s-3": {},
+						"row-end--m-3": {},
+						"row-end--l-3": {},
+						"row-end--xl-3": {},
+						"row-end--xxl-3": {}
+					}
+				},
+				"row-end--4": {
+					"variants": {
+						"row-end--s-4": {},
+						"row-end--m-4": {},
+						"row-end--l-4": {},
+						"row-end--xl-4": {},
+						"row-end--xxl-4": {}
+					}
+				},
+				"row-end--5": {
+					"variants": {
+						"row-end--s-5": {},
+						"row-end--m-5": {},
+						"row-end--l-5": {},
+						"row-end--xl-5": {},
+						"row-end--xxl-5": {}
+					}
+				},
+				"row-end--6": {
+					"variants": {
+						"row-end--s-6": {},
+						"row-end--m-6": {},
+						"row-end--l-6": {},
+						"row-end--xl-6": {},
+						"row-end--xxl-6": {}
+					}
+				},
+				"row-end--7": {
+					"variants": {
+						"row-end--s-7": {},
+						"row-end--m-7": {},
+						"row-end--l-7": {},
+						"row-end--xl-7": {},
+						"row-end--xxl-7": {}
+					}
+				},
+				"row-end--8": {
+					"variants": {
+						"row-end--s-8": {},
+						"row-end--m-8": {},
+						"row-end--l-8": {},
+						"row-end--xl-8": {},
+						"row-end--xxl-8": {}
+					}
+				},
+				"row-end--9": {
+					"variants": {
+						"row-end--s-9": {},
+						"row-end--m-9": {},
+						"row-end--l-9": {},
+						"row-end--xl-9": {},
+						"row-end--xxl-9": {}
+					}
+				},
+				"row-end--10": {
+					"variants": {
+						"row-end--s-10": {},
+						"row-end--m-10": {},
+						"row-end--l-10": {},
+						"row-end--xl-10": {},
+						"row-end--xxl-10": {}
+					}
+				},
+				"row-end--11": {
+					"variants": {
+						"row-end--s-11": {},
+						"row-end--m-11": {},
+						"row-end--l-11": {},
+						"row-end--xl-11": {},
+						"row-end--xxl-11": {}
+					}
+				},
+				"row-end--12": {
+					"variants": {
+						"row-end--s-12": {},
+						"row-end--m-12": {},
+						"row-end--l-12": {},
+						"row-end--xl-12": {},
+						"row-end--xxl-12": {}
+					}
+				},
+				"row-end--last": {
+					"variants": {
+						"row-end--s-last": {},
+						"row-end--m-last": {},
+						"row-end--l-last": {},
+						"row-end--xl-last": {},
+						"row-end--xxl-last": {}
+					}
+				}
+			}
+		},
+		"col-span": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"col-span--1": {
+					"variants": {
+						"col-span--s-1": {},
+						"col-span--m-1": {},
+						"col-span--l-1": {},
+						"col-span--xl-1": {}
+					}
+				},
+				"col-span--2": {
+					"variants": {
+						"col-span--s-2": {},
+						"col-span--m-2": {},
+						"col-span--l-2": {},
+						"col-span--xl-2": {}
+					}
+				},
+				"col-span--3": {
+					"variants": {
+						"col-span--s-3": {},
+						"col-span--m-3": {},
+						"col-span--l-3": {},
+						"col-span--xl-3": {}
+					}
+				},
+				"col-span--4": {
+					"variants": {
+						"col-span--s-4": {},
+						"col-span--m-4": {},
+						"col-span--l-4": {},
+						"col-span--xl-4": {}
+					}
+				},
+				"col-span--5": {
+					"variants": {
+						"col-span--s-5": {},
+						"col-span--m-5": {},
+						"col-span--l-5": {},
+						"col-span--xl-5": {}
+					}
+				},
+				"col-span--6": {
+					"variants": {
+						"col-span--s-6": {},
+						"col-span--m-6": {},
+						"col-span--l-6": {},
+						"col-span--xl-6": {}
+					}
+				},
+				"col-span--7": {
+					"variants": {
+						"col-span--s-7": {},
+						"col-span--m-7": {},
+						"col-span--l-7": {},
+						"col-span--xl-7": {}
+					}
+				},
+				"col-span--8": {
+					"variants": {
+						"col-span--s-8": {},
+						"col-span--m-8": {},
+						"col-span--l-8": {},
+						"col-span--xl-8": {}
+					}
+				},
+				"col-span--9": {
+					"variants": {
+						"col-span--s-9": {},
+						"col-span--m-9": {},
+						"col-span--l-9": {},
+						"col-span--xl-9": {}
+					}
+				},
+				"col-span--10": {
+					"variants": {
+						"col-span--s-10": {},
+						"col-span--m-10": {},
+						"col-span--l-10": {},
+						"col-span--xl-10": {}
+					}
+				},
+				"col-span--11": {
+					"variants": {
+						"col-span--s-11": {},
+						"col-span--m-11": {},
+						"col-span--l-11": {},
+						"col-span--xl-11": {}
+					}
+				},
+				"col-span--12": {
+					"variants": {
+						"col-span--s-12": {},
+						"col-span--m-12": {},
+						"col-span--l-12": {},
+						"col-span--xl-12": {}
+					}
+				},
+				"col-span--all": {
+					"variants": {
+						"col-span--s-all": {},
+						"col-span--m-all": {},
+						"col-span--l-all": {},
+						"col-span--xl-all": {}
+					}
+				}
+			}
+		},
+		"row-span": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"row-span--1": {
+					"variants": {
+						"row-span--s-1": {},
+						"row-span--m-1": {},
+						"row-span--l-1": {},
+						"row-span--xl-1": {}
+					}
+				},
+				"row-span--2": {
+					"variants": {
+						"row-span--s-2": {},
+						"row-span--m-2": {},
+						"row-span--l-2": {},
+						"row-span--xl-2": {}
+					}
+				},
+				"row-span--3": {
+					"variants": {
+						"row-span--s-3": {},
+						"row-span--m-3": {},
+						"row-span--l-3": {},
+						"row-span--xl-3": {}
+					}
+				},
+				"row-span--4": {
+					"variants": {
+						"row-span--s-4": {},
+						"row-span--m-4": {},
+						"row-span--l-4": {},
+						"row-span--xl-4": {}
+					}
+				},
+				"row-span--5": {
+					"variants": {
+						"row-span--s-5": {},
+						"row-span--m-5": {},
+						"row-span--l-5": {},
+						"row-span--xl-5": {}
+					}
+				},
+				"row-span--6": {
+					"variants": {
+						"row-span--s-6": {},
+						"row-span--m-6": {},
+						"row-span--l-6": {},
+						"row-span--xl-6": {}
+					}
+				},
+				"row-span--7": {
+					"variants": {
+						"row-span--s-7": {},
+						"row-span--m-7": {},
+						"row-span--l-7": {},
+						"row-span--xl-7": {}
+					}
+				},
+				"row-span--8": {
+					"variants": {
+						"row-span--s-8": {},
+						"row-span--m-8": {},
+						"row-span--l-8": {},
+						"row-span--xl-8": {}
+					}
+				},
+				"row-span--9": {
+					"variants": {
+						"row-span--s-9": {},
+						"row-span--m-9": {},
+						"row-span--l-9": {},
+						"row-span--xl-9": {}
+					}
+				},
+				"row-span--10": {
+					"variants": {
+						"row-span--s-10": {},
+						"row-span--m-10": {},
+						"row-span--l-10": {},
+						"row-span--xl-10": {}
+					}
+				},
+				"row-span--11": {
+					"variants": {
+						"row-span--s-11": {},
+						"row-span--m-11": {},
+						"row-span--l-11": {},
+						"row-span--xl-11": {}
+					}
+				},
+				"row-span--12": {
+					"variants": {
+						"row-span--s-12": {},
+						"row-span--m-12": {},
+						"row-span--l-12": {},
+						"row-span--xl-12": {}
+					}
+				}
+			}
+		},
+		"order": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+			},
+			"classes": {
+				"order--first": {
+					"variants": {
+						"order--first-xxl": {},
+						"order--first-xl": {},
+						"order--first-l": {},
+						"order--first-m": {},
+						"order--first-s": {},
+						"order--first-xs": {}
+					}
+				},
+				"order--last": {
+					"variants": {
+						"order--last-xxl": {},
+						"order--last-xl": {},
+						"order--last-l": {},
+						"order--last-m": {},
+						"order--last-s": {},
+						"order--last-xs": {}
+					}
+				}
+			}
+		},
+		"grid-stack": {
+			"documentation_links": {
+				"default_documentation": "https://automaticcss.com/docs/auto-grids/"
+			},
+			"classes": {
+				"grid--stack-even": {},
+				"grid--stack-even-xxl": {},
+				"grid--stack-even-xl": {},
+				"grid--stack-even-l": {},
+				"grid--stack-even-m": {},
+				"grid--stack-even-s": {},
+				"grid--stack-even-xs": {},
+				"grid--stack-any": {},
+				"grid--stack-any-xxl": {},
+				"grid--stack-any-xl": {},
+				"grid--stack-any-l": {},
+				"grid--stack-any-m": {},
+				"grid--stack-any-s": {},
+				"grid--stack-any-xs": {}
+			}
+		},
+		"grid-flow": {
+			"documentation_links": {
+				"default_documentation": "https://automaticcss.com/docs/auto-grids/"
+			},
+			"classes": {
+				"grid--auto-fit": {},
+				"grid--auto-fill": {}
+			}
+		}
+	}
+}

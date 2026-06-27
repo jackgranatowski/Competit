@@ -1,0 +1,39 @@
+{
+	"category": "layout",
+	"group": "width",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/width-utilities/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-width",
+		"value": "on"
+	},
+	"classes": {
+		"width--xs": {},
+		"width--s": {},
+		"width--m": {},
+		"width--l": {},
+		"width--xl": {},
+		"width--xxl": {},
+		"width--content": {},
+		"width--50": {},
+		"width--full": {},
+		"width--auto": {},
+		"content-width": {},
+		"content-width--safe": {}
+	},
+	"vars": {
+		"width-xs": {},
+		"width-s": {},
+		"width-m": {},
+		"width-l": {},
+		"width-xl": {},
+		"width-xxl": {},
+		"width-content": {},
+		"width-50": {},
+		"width-full": {},
+		"content-width": {},
+		"content-width--safe": {}
+	}
+}

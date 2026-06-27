@@ -1,0 +1,11 @@
+{
+	"category": "additional-styling",
+	"group": "color scheme",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/color-scheme-dark-mode/"
+	},
+	"classes": {
+		"scheme--light": {},
+		"scheme--dark": {}
+	}
+}

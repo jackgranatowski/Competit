@@ -1,0 +1,19 @@
+{
+	"category": "layout",
+	"group": "content grid",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/content-grid/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-content-grid",
+		"value": "on"
+	},
+	"classes": {
+		"content-grid": {},
+		"content--feature": {},
+		"content--feature-max": {},
+		"content--full": {},
+		"content--full-safe": {}
+	}
+}

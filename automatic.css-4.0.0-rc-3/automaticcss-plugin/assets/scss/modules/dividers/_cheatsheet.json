@@ -1,0 +1,28 @@
+{
+	"category": "layout",
+	"group": "divider",
+	"condition": {
+		"type": "=",
+		"setting": "option-divider-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/global-divider-system/"
+	},
+	"classes": {
+		"divider--all": {},
+		"divider-top": {},
+		"divider-bottom": {}
+	},
+	"vars": {
+		"divider": {},
+		"divider-size": {},
+		"divider-style": {},
+		"divider-inline-size": {},
+		"divider-gap": {},
+		"divider-light": {},
+		"divider-color-light": {},
+		"divider-dark": {},
+		"divider-color-dark": {}
+	}
+}

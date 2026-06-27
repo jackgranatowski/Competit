@@ -1,0 +1,85 @@
+{
+	"category": "layout",
+	"group": "centering",
+	"condition": {
+		"type": "=",
+		"setting": "option-centering",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/centering-classes/"
+	},
+	"classes": {
+		"center--self": {},
+		"center--all": {
+			"variants": {
+				"center--all-xs": {},
+				"center--all-s": {},
+				"center--all-m": {},
+				"center--all-l": {},
+				"center--all-xl": {},
+				"center--all-xxl": {}
+			}
+		},
+		"center--y": {
+			"variants": {
+				"center--y-xs": {},
+				"center--y-s": {},
+				"center--y-m": {},
+				"center--y-l": {},
+				"center--y-xl": {},
+				"center--y-xxl": {}
+			}
+		},
+		"center--x": {
+			"variants": {
+				"center--x-xs": {},
+				"center--x-s": {},
+				"center--x-m": {},
+				"center--x-l": {},
+				"center--x-xl": {},
+				"center--x-xxl": {}
+			}
+		},
+		"center--left": {
+			"variants": {
+				"center--left-xs": {},
+				"center--left-s": {},
+				"center--left-m": {},
+				"center--left-l": {},
+				"center--left-xl": {},
+				"center--left-xxl": {}
+			}
+		},
+		"center--right": {
+			"variants": {
+				"center--right-xs": {},
+				"center--right-s": {},
+				"center--right-m": {},
+				"center--right-l": {},
+				"center--right-xl": {},
+				"center--right-xxl": {}
+			}
+		},
+		"center--top": {
+			"variants": {
+				"center--top-xs": {},
+				"center--top-s": {},
+				"center--top-m": {},
+				"center--top-l": {},
+				"center--top-xl": {},
+				"center--top-xxl": {}
+			}
+		},
+		"center--bottom": {
+			"variants": {
+				"center--bottom-xs": {},
+				"center--bottom-s": {},
+				"center--bottom-m": {},
+				"center--bottom-l": {},
+				"center--bottom-xl": {},
+				"center--bottom-xxl": {}
+			}
+		}
+	}
+}

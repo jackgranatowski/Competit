@@ -1,0 +1,18 @@
+{
+	"category": "additional-styling",
+	"group": "transition",
+	"classes": {
+		"transition": {}
+	},
+	"vars": {
+		"transition-duration": {},
+		"transition-timing": {},
+		"transition-delay": {},
+		"transition": {},
+		"ease-smooth": {},
+		"ease-snappy": {},
+		"ease-gentle": {},
+		"ease-bouncy": {},
+		"ease-elastic": {}
+	}
+}

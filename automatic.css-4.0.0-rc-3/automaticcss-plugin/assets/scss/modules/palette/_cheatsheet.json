@@ -1,0 +1,14 @@
+{
+	"category": "color",
+	"palette_template": {
+		"main": ["primary", "secondary", "tertiary", "accent", "base", "neutral"],
+		"status": ["success", "danger", "warning", "info"],
+		"bw": ["black", "white"],
+		"shades": ["ultra-dark", "dark", "semi-dark", "semi-light", "light", "ultra-light", "hover"]
+	},
+	"feature": {
+		"name": "Color Palette",
+		"description": "Define your brand colors once. ACSS auto-generates shades, hover states, and dark mode variants for every color in your palette.",
+		"example": ":root {\n  --primary: oklch(55% 0.2 250);\n  --primary-hover: oklch(48% 0.2 250);\n  --primary-light: oklch(95% 0.03 250);\n  --primary-dark: oklch(25% 0.1 250);\n  /* ...shades for every color */\n}"
+	}
+}

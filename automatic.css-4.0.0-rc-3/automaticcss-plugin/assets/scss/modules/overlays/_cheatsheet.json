@@ -1,0 +1,17 @@
+{
+	"category": "background",
+	"group": "overlays",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-overlays",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/overlay-classes/"
+	},
+	"classes": {
+		"overlay": {
+			"description": "Adds a pseudo-element overlay with customizable --overlay-color"
+		}
+	}
+}

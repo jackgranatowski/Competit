@@ -1,0 +1,27 @@
+{
+	"category": "additional-styling",
+	"group": "exit-effects",
+	"classes": {
+		"on-exit--fade": {},
+		"on-exit--float": {},
+		"on-exit--sink": {},
+		"on-exit--slide-left": {},
+		"on-exit--slide-right": {},
+		"on-exit--grow": {},
+		"on-exit--shrink": {},
+		"on-exit--blur": {},
+		"on-exit--stagger": {}
+	},
+	"vars": {
+		"exit-range-start": {},
+		"exit-range-end": {},
+		"exit-opacity-target": {},
+		"exit-float-distance": {},
+		"exit-sink-distance": {},
+		"exit-slide-distance": {},
+		"exit-scale-amount": {},
+		"exit-scale-grow": {},
+		"exit-blur-amount": {},
+		"exit-stagger-interval": {}
+	}
+}

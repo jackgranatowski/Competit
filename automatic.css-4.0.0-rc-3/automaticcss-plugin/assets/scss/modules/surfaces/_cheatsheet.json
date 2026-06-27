@@ -1,0 +1,16 @@
+{
+	"category": "surfaces",
+	"group": "surfaces",
+	"classes": {
+		"surface-1": {},
+		"surface-2": {},
+		"surface-3": {},
+		"surface-4": {},
+		"surface-5": {}
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-surfaces",
+		"value": "on"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"category": "text-columns",
+	"groups": {
+		"column-count": {
+			"classes": {
+				"col-count--1": {
+					"variants": {
+						"col-count--xs-1": {},
+						"col-count--s-1": {},
+						"col-count--m-1": {},
+						"col-count--l-1": {},
+						"col-count--xl-1": {},
+						"col-count--xxl-1": {}
+					}
+				},
+				"col-count--2": {
+					"variants": {
+						"col-count--xs-2": {},
+						"col-count--s-2": {},
+						"col-count--m-2": {},
+						"col-count--l-2": {},
+						"col-count--xl-2": {},
+						"col-count--xxl-2": {}
+					}
+				},
+				"col-count--3": {
+					"variants": {
+						"col-count--xs-3": {},
+						"col-count--s-3": {},
+						"col-count--m-3": {},
+						"col-count--l-3": {},
+						"col-count--xl-3": {},
+						"col-count--xxl-3": {}
+					}
+				},
+				"col-count--4": {
+					"variants": {
+						"col-count--xs-4": {},
+						"col-count--s-4": {},
+						"col-count--m-4": {},
+						"col-count--l-4": {},
+						"col-count--xl-4": {},
+						"col-count--xxl-4": {}
+					}
+				},
+				"col-count--5": {
+					"variants": {
+						"col-count--xs-5": {},
+						"col-count--s-5": {},
+						"col-count--m-5": {},
+						"col-count--l-5": {},
+						"col-count--xl-5": {},
+						"col-count--xxl-5": {}
+					}
+				}
+			}
+		},
+		"column-width": {
+			"classes": {
+				"col-width--s": {},
+				"col-width--m": {},
+				"col-width--l": {}
+			}
+		},
+		"column-gap": {
+			"classes": {
+				"col-gap--xs": {},
+				"col-gap--s": {},
+				"col-gap--m": {},
+				"col-gap--l": {},
+				"col-gap--xl": {},
+				"col-gap--xxl": {}
+			}
+		},
+		"column-rule-style": {
+			"classes": {
+				"col-rule--dotted": {},
+				"col-rule--dashed": {},
+				"col-rule--solid": {},
+				"col-rule--double": {},
+				"col-rule--groove": {},
+				"col-rule--ridge": {},
+				"col-rule--inset": {},
+				"col-rule--outset": {}
+			}
+		},
+		"column-rule-color": {
+			"color_classes_template": {
+				"prefix": "col-rule",
+				"main": ["primary", "secondary", "tertiary", "accent", "base", "neutral"],
+				"bw": ["black", "white"],
+				"shades": ["ultra-dark", "dark", "semi-dark", "semi-light", "light", "ultra-light", "hover"]
+			}
+		},
+		"column-rule-width": {
+			"classes": {
+				"col-rule--s": {},
+				"col-rule--m": {},
+				"col-rule--l": {}
+			}
+		}
+	}
+}

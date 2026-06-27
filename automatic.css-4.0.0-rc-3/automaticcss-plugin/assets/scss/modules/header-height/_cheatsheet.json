@@ -1,0 +1,13 @@
+{
+	"category": "accessibility",
+	"group": "header-height",
+	"condition": {
+		"type": "=",
+		"setting": "option-header-height-variables",
+		"value": "on"
+	},
+	"vars": {
+		"header-height": {},
+		"admin-bar-height": {}
+	}
+}
