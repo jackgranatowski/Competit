@@ -1,0 +1,20 @@
+{
+	"category": "additional-styling",
+	"group": "gradient-fades",
+	"condition": {
+		"type": "=",
+		"setting": "option-gradient-fades",
+		"value": "on"
+	},
+	"classes": {
+		"fade--block": {},
+		"fade--inline": {},
+		"fade--top": {},
+		"fade--right": {},
+		"fade--bottom": {},
+		"fade--left": {}
+	},
+	"vars": {
+		"fade-amount": {}
+	}
+}

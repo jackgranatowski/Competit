@@ -1,0 +1,204 @@
+{
+	"category": "layout",
+	"group": "height",
+	"condition": {
+		"type": "=",
+		"setting": "option-height",
+		"value": "on"
+	},
+	"class_groups": {
+		"height": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/height-classes/"
+			},
+			"classes": {
+				"height--full": {},
+				"height--20": {
+					"variants": {
+						"height--xxl-20": {},
+						"height--xl-20": {},
+						"height--l-20": {},
+						"height--m-20": {},
+						"height--s-20": {},
+						"height--xs-20": {}
+					}
+				},
+				"height--30": {
+					"variants": {
+						"height--xxl-30": {},
+						"height--xl-30": {},
+						"height--l-30": {},
+						"height--m-30": {},
+						"height--s-30": {},
+						"height--xs-30": {}
+					}
+				},
+				"height--40": {
+					"variants": {
+						"height--xxl-40": {},
+						"height--xl-40": {},
+						"height--l-40": {},
+						"height--m-40": {},
+						"height--s-40": {},
+						"height--xs-40": {}
+					}
+				},
+				"height--50": {
+					"variants": {
+						"height--xxl-50": {},
+						"height--xl-50": {},
+						"height--l-50": {},
+						"height--m-50": {},
+						"height--s-50": {},
+						"height--xs-50": {}
+					}
+				},
+				"height--60": {
+					"variants": {
+						"height--xxl-60": {},
+						"height--xl-60": {},
+						"height--l-60": {},
+						"height--m-60": {},
+						"height--s-60": {},
+						"height--xs-60": {}
+					}
+				},
+				"height--70": {
+					"variants": {
+						"height--xxl-70": {},
+						"height--xl-70": {},
+						"height--l-70": {},
+						"height--m-70": {},
+						"height--s-70": {},
+						"height--xs-70": {}
+					}
+				},
+				"height--80": {
+					"variants": {
+						"height--xxl-80": {},
+						"height--xl-80": {},
+						"height--l-80": {},
+						"height--m-80": {},
+						"height--s-80": {},
+						"height--xs-80": {}
+					}
+				},
+				"height--90": {
+					"variants": {
+						"height--xxl-90": {},
+						"height--xl-90": {},
+						"height--l-90": {},
+						"height--m-90": {},
+						"height--s-90": {},
+						"height--xs-90": {}
+					}
+				},
+				"height--100": {
+					"variants": {
+						"height--xxl-100": {},
+						"height--xl-100": {},
+						"height--l-100": {},
+						"height--m-100": {},
+						"height--s-100": {},
+						"height--xs-100": {}
+					}
+				}
+			}
+		},
+		"max-height": {
+			"classes": {
+				"max-height--full": {},
+				"max-height--20": {
+					"variants": {
+						"max-height--xxl-20": {},
+						"max-height--xl-20": {},
+						"max-height--l-20": {},
+						"max-height--m-20": {},
+						"max-height--s-20": {},
+						"max-height--xs-20": {}
+					}
+				},
+				"max-height--30": {
+					"variants": {
+						"max-height--xxl-30": {},
+						"max-height--xl-30": {},
+						"max-height--l-30": {},
+						"max-height--m-30": {},
+						"max-height--s-30": {},
+						"max-height--xs-30": {}
+					}
+				},
+				"max-height--40": {
+					"variants": {
+						"max-height--xxl-40": {},
+						"max-height--xl-40": {},
+						"max-height--l-40": {},
+						"max-height--m-40": {},
+						"max-height--s-40": {},
+						"max-height--xs-40": {}
+					}
+				},
+				"max-height--50": {
+					"variants": {
+						"max-height--xxl-50": {},
+						"max-height--xl-50": {},
+						"max-height--l-50": {},
+						"max-height--m-50": {},
+						"max-height--s-50": {},
+						"max-height--xs-50": {}
+					}
+				},
+				"max-height--60": {
+					"variants": {
+						"max-height--xxl-60": {},
+						"max-height--xl-60": {},
+						"max-height--l-60": {},
+						"max-height--m-60": {},
+						"max-height--s-60": {},
+						"max-height--xs-60": {}
+					}
+				},
+				"max-height--70": {
+					"variants": {
+						"max-height--xxl-70": {},
+						"max-height--xl-70": {},
+						"max-height--l-70": {},
+						"max-height--m-70": {},
+						"max-height--s-70": {},
+						"max-height--xs-70": {}
+					}
+				},
+				"max-height--80": {
+					"variants": {
+						"max-height--xxl-80": {},
+						"max-height--xl-80": {},
+						"max-height--l-80": {},
+						"max-height--m-80": {},
+						"max-height--s-80": {},
+						"max-height--xs-80": {}
+					}
+				},
+				"max-height--90": {
+					"variants": {
+						"max-height--xxl-90": {},
+						"max-height--xl-90": {},
+						"max-height--l-90": {},
+						"max-height--m-90": {},
+						"max-height--s-90": {},
+						"max-height--xs-90": {}
+					}
+				},
+				"max-height--100": {
+					"variants": {
+						"max-height--xxl-100": {},
+						"max-height--xl-100": {},
+						"max-height--l-100": {},
+						"max-height--m-100": {},
+						"max-height--s-100": {},
+						"max-height--xs-100": {}
+					}
+				}
+			}
+		}
+	}
+}

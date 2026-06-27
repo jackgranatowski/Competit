@@ -1,0 +1,38 @@
+@if $option-forms == on {
+	// Global tokens: output to :root (implicitly forces auto-style)
+	@if $option-load-form-tokens-globally == on {
+		:root {
+			@each $wsf-var, $value in $wsf-form-styles {
+				--#{$wsf-var}: #{$value};
+			}
+		}
+	}
+	// Auto-style: scoped to all WS Forms
+	@else if $option-style-forms-automatically == on {
+		form.wsf-form {
+			@each $wsf-var, $value in $wsf-form-styles {
+				--#{$wsf-var}: #{$value};
+			}
+		}
+	}
+	// Manual: only with utility classes
+	@else {
+		.wsf-form:is(.form--light, .form--dark),
+		:is(.form--light, .form--dark) .wsf-form {
+			@each $wsf-var, $value in $wsf-form-styles {
+				--#{$wsf-var}: #{$value};
+			}
+		}
+	}
+
+	// Utility classes to force specific color-scheme.
+	form.wsf-form.form--light, .form--light .wsf-form {
+		color-scheme: light;
+	}
+
+	form.wsf-form.form--dark, .form--dark .wsf-form {
+		color-scheme: dark;
+	}
+}
+
+@import "buttons";

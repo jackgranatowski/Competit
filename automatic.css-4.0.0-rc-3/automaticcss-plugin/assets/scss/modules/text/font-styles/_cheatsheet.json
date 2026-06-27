@@ -1,0 +1,16 @@
+{
+	"category": "typography",
+	"group": "font-styles",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--italic": {},
+		"text--oblique": {}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"category": "typography",
+	"group": "text-decorations",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--decoration-none": {},
+		"text--underline": {},
+		"text--underline-wavy": {},
+		"text--underline-dotted": {},
+		"text--underline-double": {},
+		"text--underline-dashed": {},
+		"text--overline": {},
+		"text--line-through": {}
+	}
+}

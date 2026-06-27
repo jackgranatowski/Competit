@@ -1,0 +1,49 @@
+@if $option-text-size-variables == on {
+	/* Feat: Text Size Variables */
+	:root {
+		@include generate-text-sizes(
+			$include-bridges: true,
+			$mob-overrides: (
+				xs: $text-xs-min,
+				s: $text-s-min,
+				m: $text-m-min,
+				l: $text-l-min,
+				xl: $text-xl-min,
+				xxl: $text-xxl-min
+			),
+			$desk-overrides: (
+				xs: $text-xs-max,
+				s: $text-s-max,
+				m: $text-m-max,
+				l: $text-l-max,
+				xl: $text-xl-max,
+				xxl: $text-xxl-max
+			)
+		);
+	}
+}
+// HEADING SIZE VARIABLES
+@if $option-heading-size-variables == on {
+	/* Feat: Heading Size Variables */
+	:root {
+		@include generate-heading-sizes(
+			$include-bridges: true,
+			$mob-overrides: (
+				h1: $h1-min,
+				h2: $h2-min,
+				h3: $h3-min,
+				h4: $h4-min,
+				h5: $h5-min,
+				h6: $h6-min
+			),
+			$desk-overrides: (
+				h1: $h1-max,
+				h2: $h2-max,
+				h3: $h3-max,
+				h4: $h4-max,
+				h5: $h5-max,
+				h6: $h6-max
+			)
+		);
+	}
+}

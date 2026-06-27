@@ -1,0 +1,62 @@
+{
+	"category": "border",
+	"group": "border",
+	"condition": {
+		"type": "=",
+		"setting": "option-border-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/global-border-system/"
+	},
+	"classes": {
+		"border": {},
+		"border-light": {},
+		"border-dark": {},
+		"border-top": {
+			"variants": {
+				"border-top--dark": {},
+				"border-top--light": {}
+			}
+		},
+		"border-right": {
+			"variants": {
+				"border-right--dark": {},
+				"border-right--light": {}
+			}
+		},
+		"border-bottom": {
+			"variants": {
+				"border-bottom--dark": {},
+				"border-bottom--light": {}
+			}
+		},
+		"border-left": {
+			"variants": {
+				"border-left--dark": {},
+				"border-left--light": {}
+			}
+		},
+		"border-block": {
+			"variants": {
+				"border-block--dark": {},
+				"border-block--light": {}
+			}
+		},
+		"border-inline": {
+			"variants": {
+				"border-inline--dark": {},
+				"border-inline--light": {}
+			}
+		}
+	},
+	"vars": {
+		"border": {},
+		"border-light:": {},
+		"border-dark": {},
+		"border-size": {},
+		"border-style:": {},
+		"border-color-dark": {},
+		"border-color-light": {}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"category": "button-link",
+	"groups": {
+		"link": {
+			"feature": {
+				"name": "Links",
+				"description": "Global link color and hover behavior tied to your palette. Apply contextual link colors with utility classes — no manual hex codes or style overrides.",
+				"example": "<a class=\"link--primary\">Primary Link</a>\n<a class=\"link--secondary\">Secondary Link</a>"
+			},
+			"condition": {
+				"type": "=",
+				"setting": "option-link-color",
+				"value": "on"
+			},
+			"documentation_links": {
+				"default_documentation": "https://automaticcss.com/docs/links/",
+				"class_documentation": "https://automaticcss.com/docs/link-classes/"
+			},
+			"color_classes_template": {
+				"prefix": "link",
+				"main": ["primary", "secondary", "tertiary", "accent", "base", "neutral"],
+				"status": ["success", "danger", "warning", "info"],
+				"bw": ["black", "white"],
+				"shades": ["ultra-dark", "dark", "semi-dark", "semi-light", "light", "ultra-light", "hover"],
+				"extras": {
+					"contextual utility": {
+						"classes": {
+							"link--skip": {},
+							"skip-link": {}
+						}
+					}
+				}
+			}
+		},
+		"link-hover": {
+			"condition": {
+				"type": "=",
+				"setting": "option-link-color",
+				"value": "on"
+			},
+			"color_classes_template": {
+				"prefix": "link-hover",
+				"main": ["primary", "secondary", "tertiary", "accent", "base", "neutral"],
+				"status": ["success", "danger", "warning", "info"],
+				"bw": ["black", "white"],
+				"shades": ["ultra-dark", "dark", "semi-dark", "semi-light", "light", "ultra-light", "hover"]
+			}
+		}
+	}
+}

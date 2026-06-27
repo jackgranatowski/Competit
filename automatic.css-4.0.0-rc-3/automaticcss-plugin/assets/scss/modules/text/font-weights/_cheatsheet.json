@@ -1,0 +1,24 @@
+{
+	"category": "typography",
+	"group": "font-weights",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--100": {},
+		"text--200": {},
+		"text--300": {},
+		"text--400": {},
+		"text--500": {},
+		"text--600": {},
+		"text--700": {},
+		"text--800": {},
+		"text--900": {},
+		"text--bold": {}
+	}
+}

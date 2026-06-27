@@ -1,0 +1,286 @@
+// Core type scale generator. Computes 6 fluid sizes from a ratio pair and
+// optional bridge variables between every larger→smaller combination.
+// $names: 6-item list ordered smallest to largest (3rd item is the 1x anchor).
+// $prefix: prepended to each CSS custom property name.
+// $mob-overrides / $desk-overrides: optional maps keyed by name (e.g. `xs` or
+// `h1`) that, when non-null, replace the formula-computed size for that step.
+// Used to honor the dashboard's per-size "Font Size Overrides" at :root.
+@mixin generate-type-scale(
+  $desk-ratio,
+  $mob-ratio,
+  $base-desk,
+  $base-mob,
+  $names,
+  $prefix: '',
+  $include-bridges: false,
+  $mob-overrides: (),
+  $desk-overrides: ()
+) {
+  $mob-values: (
+    $base-mob / pow($mob-ratio, 2),
+    $base-mob / $mob-ratio,
+    $base-mob,
+    $base-mob * pow($mob-ratio, 1),
+    $base-mob * pow($mob-ratio, 2),
+    $base-mob * pow($mob-ratio, 3)
+  );
+  $desk-values: (
+    $base-desk / pow($desk-ratio, 2),
+    $base-desk / $desk-ratio,
+    $base-desk,
+    $base-desk * pow($desk-ratio, 1),
+    $base-desk * pow($desk-ratio, 2),
+    $base-desk * pow($desk-ratio, 3)
+  );
+
+  @for $i from 1 through 6 {
+    $name: nth($names, $i);
+    $mob-override: map-get($mob-overrides, $name);
+    $desk-override: map-get($desk-overrides, $name);
+    $mob-val: if($mob-override != null, $mob-override, nth($mob-values, $i));
+    $desk-val: if($desk-override != null, $desk-override, nth($desk-values, $i));
+    --#{$prefix}#{$name}: #{fluidClamp($mob-val, $desk-val)};
+  }
+
+  @if $include-bridges {
+    @for $i from 2 through 6 {
+      @for $j from ($i - 1) through 1 {
+        $name-i: nth($names, $i);
+        $name-j: nth($names, $j);
+        $mob-override: map-get($mob-overrides, $name-j);
+        $desk-override: map-get($desk-overrides, $name-i);
+        $mob-val: if($mob-override != null, $mob-override, nth($mob-values, $j));
+        $desk-val: if($desk-override != null, $desk-override, nth($desk-values, $i));
+        --#{$prefix}#{$name-i}-to-#{$name-j}: #{fluidClamp($mob-val, $desk-val)};
+      }
+    }
+  }
+}
+
+// Generate heading size custom properties (--h1 through --h6).
+// Use on :root for globals, or on any selector for section-level overrides.
+@mixin generate-heading-sizes(
+  $desk-ratio: $heading-scale,
+  $mob-ratio: $mob-heading-scale,
+  $base-desk: $base-heading-desk,
+  $base-mob: $base-heading-mob,
+  $include-bridges: false,
+  $mob-overrides: (),
+  $desk-overrides: ()
+) {
+  @include generate-type-scale(
+    $desk-ratio, $mob-ratio, $base-desk, $base-mob,
+    (h6, h5, h4, h3, h2, h1), '', $include-bridges,
+    $mob-overrides, $desk-overrides
+  );
+}
+
+// Generate text size custom properties (--text-xs through --text-xxl).
+// Use on :root for globals, or on any selector for section-level overrides.
+@mixin generate-text-sizes(
+  $desk-ratio: $text-scale,
+  $mob-ratio: $mob-text-scale,
+  $base-desk: $base-text-desk,
+  $base-mob: $base-text-mob,
+  $include-bridges: false,
+  $mob-overrides: (),
+  $desk-overrides: ()
+) {
+  @include generate-type-scale(
+    $desk-ratio, $mob-ratio, $base-desk, $base-mob,
+    (xs, s, m, l, xl, xxl), 'text-', $include-bridges,
+    $mob-overrides, $desk-overrides
+  );
+}
+
+// Mixins to load site defaults
+@mixin load-default-text() {
+  // Body Styles
+  body {
+    font-size: var(--default-font-size, var(--text-m));
+    @each $prop, $value in $textDefaultStyles {
+      @if $value != null and $prop != "max-width" {
+        #{$prop}: var(--text-#{$prop});
+      }
+    }
+  }
+
+  // Line height must be called on specific elements to support calc functions via custom properties
+  p, li {
+    line-height: var(--text-line-height, $base-text-lh);
+  }
+
+  // Support for global heading styles
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    @each $prop, $value in $headingDefaultStyles {
+      @if $value != null {
+        #{$prop}: var(--heading-#{$prop});
+      }
+    }
+  }
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      font-size: var(--h#{$i});
+      // Directly access the map for the current heading level h#{$i}
+      $current-heading-styles: map-get($headingGlobalStyles, 'h#{$i}');
+
+      // Check if there is a valid map for the current heading
+      @if $current-heading-styles != null {
+        @each $prop, $value in $current-heading-styles {
+          @if $value != null {
+            // Output the property with a CSS variable
+            #{$prop}: var(--h#{$i}-#{$prop});
+          }
+        }
+      }
+    }
+  }
+
+  // Default paragraph length cap
+  @if $text-max-width != null {
+    p, li {
+      max-inline-size: var(--text-m-length, $text-max-width);
+      width: 100%;
+    }
+  }
+}
+//// Default body styles
+@mixin load-default-body() {
+  @if $option-boxed-layout == on {
+    html {
+      background-color: var(--device-bg-color, $device-bg-color);
+    }
+  }
+  body {
+    color: var(--body-color, $body-color);
+    background-color: var(--body-bg-color, $body-bg-color);
+    @if $option-boxed-layout == on {
+      inline-size: 100%;
+      max-inline-size: var(--body-max-width, $body-max-width);
+      box-shadow: var(--body-box-shadow, $body-box-shadow);
+      border-color: var(--body-border-color, $body-border-color);
+      border-style: var(--body-border-style, $body-border-style);
+      border-width: var(--body-border-width, $body-border-width);
+      border-radius: var(--body-border-radius, $body-border-radius);
+      margin-block-start: var(--body-margin-top, #{$body-margin-top}) !important;
+      margin-inline: auto !important;
+    }
+  }
+  html:has(body.boxed-layout) {
+    background-color: var(--device-bg-color, $device-bg-color);
+  }
+}
+
+$link-default-not-selectors: null;
+@if $option-link-default-not == off or $link-default-not == null {
+  $link-default-not-selectors: "[class*="btn--"]";
+} @else {
+  $link-default-not-selectors: "[class*="btn--"], #{$link-default-not}";
+}
+
+//// Default link styles
+@mixin load-default-links() {
+  body a:where(:not(#{$link-default-not-selectors})) {
+    color: var(--link-color, $link-color);
+    font-weight: var(--link-weight, $link-weight);
+    -webkit-text-decoration: var(--link-decoration, $link-decoration);
+    text-decoration: var(--link-decoration, $link-decoration);
+    text-underline-offset: var(--link-underline-offset, $link-underline-offset);
+    @if $link-decoration-color != null {
+      text-decoration-color: var(--link-decoration-color);
+    }
+    @if $link-decoration-thickness != null {
+      text-decoration-thickness: var(--link-decoration-thickness);
+    }
+    transition: var(--link-transition, var(--transition));
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        color: var(--link-color-hover, $link-color-hover);
+        @if $link-decoration-hover != "inherit" {
+          -webkit-text-decoration: var(--link-decoration-hover, $link-decoration-hover);
+          text-decoration: var(--link-decoration-hover, $link-decoration-hover);
+        }
+        @if $link-decoration-color-hover != null {
+          --link-decoration-color: var(--link-decoration-color-hover);
+        }
+        @if $link-decoration-thickness != null {
+          text-decoration-thickness: var(--link-decoration-thickness);
+        }
+      }
+    }
+  }
+
+  // Default link style for headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    a {
+      font-weight: inherit;
+      text-decoration: inherit;
+      color: currentcolor;
+      text-underline-offset: var(--link-underline-offset, $link-underline-offset);
+
+      @media (hover: hover) and (pointer: fine) {
+        &:hover {
+          color: currentcolor;
+        }
+      }
+    }
+  }
+
+}
+
+// Heading Style Mixins
+
+@mixin heading-style($level: h2) {
+  font-size: var(--#{$level});
+  // Output styles from $headingDefaultStyles
+  @each $property, $value in $headingDefaultStyles {
+    @if $value != null {
+      #{$property}: var(--heading-#{$property});
+    }
+  }
+
+  // Get the specific styles for the heading level
+  $specificStyles: map-get($headingGlobalStyles, $level);
+
+  // Output specific styles, overriding defaults where applicable
+  @each $property, $value in $specificStyles {
+    @if $value != null {
+      // Only output if the property is different from the default
+      @if not map-has-key($headingDefaultStyles, $property) or $value != map-get($headingDefaultStyles, $property) {
+        #{$property}: var(--#{$level}-#{$property}, var(--heading-#{$property}));
+      }
+    }
+  }
+}
+
+// Text Style Mixins
+
+@mixin text-style($level: m) {
+  font-size: var(--text-#{$level});
+  // Output styles from $textDefaultStyles
+  @each $property, $value in $textDefaultStyles {
+    @if $value != null {
+      #{$property}: var(--text-#{$property});
+    }
+  }
+
+  // Get the specific styles for the text level
+  $specificStyles: map-get($textGlobalStyles, $level);
+
+  // Output specific styles, overriding defaults where applicable
+  @each $property, $value in $specificStyles {
+    @if $value != null {
+      // Only output if the property is different from the default
+      @if not map-has-key($textDefaultStyles, $property) or $value != map-get($textDefaultStyles, $property) {
+        #{$property}: var(--text-#{$level}-#{$property}, var(--text-#{$property}));
+      }
+    }
+  }
+}

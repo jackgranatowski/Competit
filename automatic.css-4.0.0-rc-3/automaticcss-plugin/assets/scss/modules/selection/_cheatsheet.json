@@ -1,0 +1,26 @@
+{
+	"category": "additional-styling",
+	"group": "selection",
+	"class_groups": {
+		"selection background": {
+			"condition": {
+				"type": "!=",
+				"setting": "selection-bg-alt",
+				"value": ""
+			},
+			"classes": {
+				"selection--alt": {}
+			}
+		},
+		"selection text": {
+			"condition": {
+				"type": "!=",
+				"setting": "selection-text-alt",
+				"value": ""
+			},
+			"classes": {
+				"selection--alt": {}
+			}
+		}
+	}
+}

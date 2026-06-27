@@ -1,0 +1,15 @@
+{
+	"category": "background",
+	"group": "is-bg",
+	"condition": {
+		"type": "=",
+		"setting": "option-is-bg",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/is-background-is-bg/"
+	},
+	"classes": {
+		"is-bg": {}
+	}
+}

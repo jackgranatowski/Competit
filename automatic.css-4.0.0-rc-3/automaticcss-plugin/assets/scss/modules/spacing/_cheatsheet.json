@@ -1,0 +1,373 @@
+{
+	"category": "spacing",
+	"feature": {
+		"name": "Fluid Spacing Scale",
+		"description": "A complete spacing system that scales fluidly between viewport sizes. Use the variables for padding, margin, and gap — everything stays proportional without breakpoints.",
+		"example": ":root {\n  --space-xs: clamp(...);\n  --space-s:  clamp(...);\n  --space-m:  clamp(...);\n  --space-l:  clamp(...);\n  --space-xl: clamp(...);\n  --space-xxl: clamp(...);\n}"
+	},
+	"groups": {
+		"spacing": {
+			"documentation_links": {
+				"variable_documentation": "https://automaticcss.com/docs/spacing-variables/"
+			},
+			"vars": {
+				"space-xs": {},
+				"space-s": {},
+				"space-m": {},
+				"space-l": {},
+				"space-xl": {},
+				"space-xxl": {}
+			}
+		},
+		"padding": {
+			"condition": {
+				"type": "=",
+				"setting": "option-padding",
+				"value": "on"
+			},
+			"class_groups": {
+				"padding": {
+					"documentation_links": {
+						"class_documentation": "https://automaticcss.com/docs/padding-classes/"
+					},
+					"classes": {
+						"padding--xs": {},
+						"padding--s": {},
+						"padding--m": {},
+						"padding--l": {},
+						"padding--xl": {},
+						"padding--xxl": {},
+						"padding--none": {}
+					}
+				},
+				"header": {
+					"documentation_links": {
+						"class_documentation": "https://automaticcss.com/docs/header-padding-classes/"
+					},
+					"classes": {
+						"header--xs": {},
+						"header--s": {},
+						"header--m": {},
+						"header--l": {},
+						"header--xl": {},
+						"header--xxl": {}
+					}
+				}
+			}
+		},
+		"section padding": {
+			"condition": {
+				"type": "=",
+				"setting": "option-section-padding",
+				"value": "on"
+			},
+			"class_groups": {
+				"section": {
+					"documentation_links": {
+						"default_documentation": "https://automaticcss.com/docs/section-spacing/"
+					},
+					"vars": {
+						"section-space-xs": {},
+						"section-space-s": {},
+						"section-space-m": {},
+						"section-space-l": {},
+						"section-space-xl": {},
+						"section-space-xxl": {}
+					},
+					"classes": {
+						"section--xs": {
+							"variants": {
+								"section--s-xs": {},
+								"section--m-xs": {},
+								"section--l-xs": {},
+								"section--xl-xs": {},
+								"section--xxl-xs": {}
+							}
+						},
+						"section--s": {
+							"variants": {
+								"section--s-s": {},
+								"section--m-s": {},
+								"section--l-s": {},
+								"section--xl-s": {},
+								"section--xxl-s": {}
+							}
+						},
+						"section--m": {
+							"variants": {
+								"section--s-m": {},
+								"section--m-m": {},
+								"section--l-m": {},
+								"section--xl-m": {},
+								"section--xxl-m": {}
+							}
+						},
+						"section--l": {
+							"variants": {
+								"section--s-l": {},
+								"section--m-l": {},
+								"section--l-l": {},
+								"section--xl-l": {},
+								"section--xxl-l": {}
+							}
+						},
+						"section--xl": {
+							"variants": {
+								"section--s-xl": {},
+								"section--m-xl": {},
+								"section--l-xl": {},
+								"section--xl-xl": {},
+								"section--xxl-xl": {}
+							}
+						},
+						"section--xxl": {
+							"variants": {
+								"section--s-xxl": {},
+								"section--m-xxl": {},
+								"section--l-xxl": {},
+								"section--xl-xxl": {},
+								"section--xxl-xxl": {}
+							}
+						},
+						"section--none": {
+							"variants": {
+								"section--s-none": {},
+								"section--m-none": {},
+								"section--l-none": {},
+								"section--xl-none": {},
+								"section--xxl-none": {}
+							}
+						}
+					}
+				}
+			}
+		},
+		"margin": {
+			"condition": {
+				"type": "=",
+				"setting": "option-margin",
+				"value": "on"
+			},
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/margin-classes/"
+			},
+			"class_groups": {
+				"top": {
+					"classes": {
+						"margin-top--xs": {},
+						"margin-top--s": {},
+						"margin-top--m": {},
+						"margin-top--l": {},
+						"margin-top--xl": {},
+						"margin-top--xxl": {}
+					}
+				},
+				"bottom": {
+					"classes": {
+						"margin-bottom--xs": {},
+						"margin-bottom--s": {},
+						"margin-bottom--m": {},
+						"margin-bottom--l": {},
+						"margin-bottom--xl": {},
+						"margin-bottom--xxl": {}
+					}
+				},
+				"left": {
+					"classes": {
+						"margin-left--xs": {},
+						"margin-left--s": {},
+						"margin-left--m": {},
+						"margin-left--l": {},
+						"margin-left--xl": {},
+						"margin-left--xxl": {}
+					}
+				},
+				"right": {
+					"classes": {
+						"margin-right--xs": {},
+						"margin-right--s": {},
+						"margin-right--m": {},
+						"margin-right--l": {},
+						"margin-right--xl": {},
+						"margin-right--xxl": {}
+					}
+				},
+				"block": {
+					"classes": {
+						"margin-block--xs": {},
+						"margin-block--s": {},
+						"margin-block--m": {},
+						"margin-block--l": {},
+						"margin-block--xl": {},
+						"margin-block--xxl": {}
+					}
+				},
+				"inline": {
+					"classes": {
+						"margin-inline--xs": {},
+						"margin-inline--s": {},
+						"margin-inline--m": {},
+						"margin-inline--l": {},
+						"margin-inline--xl": {},
+						"margin-inline--xxl": {}
+					}
+				}
+			}
+		},
+		"gap": {
+			"condition": {
+				"type": "=",
+				"setting": "option-gaps",
+				"value": "on"
+			},
+			"class_groups": {
+				"gap": {
+					"documentation_links": {
+						"default_documentation": "https://automaticcss.com/docs/gap-utilities/"
+					},
+					"classes": {
+						"gap--none": {},
+						"gap--xs": {
+							"variants": {
+								"gap--s-xs": {},
+								"gap--m-xs": {},
+								"gap--l-xs": {},
+								"gap--xl-xs": {}
+							}
+						},
+						"gap--s": {
+							"variants": {
+								"gap--s-s": {},
+								"gap--m-s": {},
+								"gap--l-s": {},
+								"gap--xl-s": {}
+							}
+						},
+						"gap--m": {
+							"variants": {
+								"gap--s-m": {},
+								"gap--m-m": {},
+								"gap--l-m": {},
+								"gap--xl-m": {}
+							}
+						},
+						"gap--l": {
+							"variants": {
+								"gap--s-l": {},
+								"gap--m-l": {},
+								"gap--l-l": {},
+								"gap--xl-l": {}
+							}
+						},
+						"gap--xl": {
+							"variants": {
+								"gap--s-xl": {},
+								"gap--m-xl": {},
+								"gap--l-xl": {},
+								"gap--xl-xl": {}
+							}
+						},
+						"gap--xxl": {
+							"variants": {
+								"gap--s-xxl": {},
+								"gap--m-xxl": {},
+								"gap--l-xxl": {},
+								"gap--xl-xxl": {}
+							}
+						}
+					}
+				},
+				"contextual gap": {
+					"documentation_links": {
+						"default_documentation": "https://automaticcss.com/docs/contextual-spacing/"
+					},
+					"classes": {
+						"container-gap": {},
+						"content-gap": {},
+						"grid-gap": {}
+					},
+					"vars": {
+						"container-gap": {},
+						"content-gap": {},
+						"grid-gap": {}
+					}
+				},
+				"row gap": {
+					"documentation_links": {
+						"default_documentation": "https://automaticcss.com/docs/gap-utilities/"
+					},
+					"vars": {
+						"row-gap": {}
+					},
+					"classes": {
+						"row-gap--xs": {
+							"variants": {
+								"row-gap--xs-xs": {},
+								"row-gap--s-xs": {},
+								"row-gap--m-xs": {},
+								"row-gap--l-xs": {},
+								"row-gap--xl-xs": {},
+								"row-gap--xxl-xs": {}
+							}
+						},
+						"row-gap--s": {
+							"variants": {
+								"row-gap--xs-s": {},
+								"row-gap--s-s": {},
+								"row-gap--m-s": {},
+								"row-gap--l-s": {},
+								"row-gap--xl-s": {},
+								"row-gap--xxl-s": {}
+							}
+						},
+						"row-gap--m": {
+							"variants": {
+								"row-gap--xs-m": {},
+								"row-gap--s-m": {},
+								"row-gap--m-m": {},
+								"row-gap--l-m": {},
+								"row-gap--xl-m": {},
+								"row-gap--xxl-m": {}
+							}
+						},
+						"row-gap--l": {
+							"variants": {
+								"row-gap--xs-l": {},
+								"row-gap--s-l": {},
+								"row-gap--m-l": {},
+								"row-gap--l-l": {},
+								"row-gap--xl-l": {},
+								"row-gap--xxl-l": {}
+							}
+						},
+						"row-gap--xl": {
+							"variants": {
+								"row-gap--xs-xl": {},
+								"row-gap--s-xl": {},
+								"row-gap--m-xl": {},
+								"row-gap--l-xl": {},
+								"row-gap--xl-xl": {},
+								"row-gap--xxl-xl": {}
+							}
+						},
+						"row-gap--xxl": {
+							"variants": {
+								"row-gap--xs-xxl": {},
+								"row-gap--s-xxl": {},
+								"row-gap--m-xxl": {},
+								"row-gap--l-xxl": {},
+								"row-gap--xl-xxl": {},
+								"row-gap--xxl-xxl": {}
+							}
+						}
+					}
+				}
+			}
+		},
+		"gutter": {
+			"vars": {
+				"gutter": {}
+			}
+		}
+	}
+}

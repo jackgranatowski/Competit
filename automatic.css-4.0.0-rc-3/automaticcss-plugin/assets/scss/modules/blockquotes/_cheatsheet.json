@@ -1,0 +1,23 @@
+{
+	"category": "additional-styling",
+	"group": "blockquotes",
+	"condition": {
+		"type": "=",
+		"setting": "option-blockquote-styling",
+		"value": "on"
+	},
+	"classes": {
+		"blockquote": {}
+	},
+	"vars": {
+		"blockquote-padding": {},
+		"blockquote-gap": {},
+		"blockquote-border-width": {},
+		"blockquote-border-style": {},
+		"blockquote-border-color": {},
+		"blockquote-border-radius": {},
+		"blockquote-background": {},
+		"blockquote-box-shadow": {},
+		"blockquote-max-inline-size": {}
+	}
+}

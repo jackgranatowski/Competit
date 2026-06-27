@@ -1,0 +1,18 @@
+{
+	"category": "typography",
+	"group": "text-transforms",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--transform-none": {},
+		"text--uppercase": {},
+		"text--lowercase": {},
+		"text--capitalize": {}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"category": "background",
+	"group": "contextual-colors",
+	"condition": {
+		"type": "=",
+		"setting": "option-contextual-color-classes",
+		"value": "on"
+	},
+	"classes": {
+		"bg--ultra-light": {},
+		"bg--light": {},
+		"bg--dark": {},
+		"bg--ultra-dark": {},
+		"text--light": {},
+		"text--light-muted": {},
+		"text--dark": {},
+		"text--dark-muted": {}
+	},
+	"vars": {
+		"body-bg-color": {},
+		"bg-ultra-light": {},
+		"bg-light": {},
+		"bg-dark": {},
+		"bg-ultra-dark": {},
+		"text-light": {},
+		"text-light-muted": {},
+		"text-dark": {},
+		"text-dark-muted": {}
+	}
+}

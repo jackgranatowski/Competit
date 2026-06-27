@@ -1,0 +1,12 @@
+{
+	"category": "list-marker",
+	"group": "list",
+	"condition": {
+		"type": "=",
+		"setting": "option-classless",
+		"value": "off"
+	},
+	"classes": {
+		"list--none": {}
+	}
+}

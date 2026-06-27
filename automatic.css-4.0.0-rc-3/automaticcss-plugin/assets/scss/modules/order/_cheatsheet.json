@@ -1,0 +1,14 @@
+{
+	"category": "additional-styling",
+	"group": "order",
+	"condition": {
+		"type": "=",
+		"setting": "option-order",
+		"value": "on"
+	},
+	"classes": {
+		"order--first": {},
+		"order--last": {},
+		"col-end--last": {}
+	}
+}

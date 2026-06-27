@@ -1,0 +1,32 @@
+{
+	"category": "spacing",
+	"group": "smart-spacing",
+	"feature": {
+		"name": "Smart Spacing",
+		"description": "Automatic vertical rhythm between elements. Headings, paragraphs, lists, and figures all get consistent spacing without you touching a single margin.",
+		"example": "/* Automatic — no classes needed */\n.smart-spacing > * + * {\n  margin-block-start: var(--flow-spacing);\n}\n.smart-spacing > :is(h1,h2,h3,h4,h5,h6) {\n  margin-block-start: var(--heading-spacing);\n}"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/smart-spacing/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-smart-spacing",
+		"value": "on"
+	},
+	"classes": {
+		"smart-spacing": {}
+	},
+	"vars": {
+		"paragraph-spacing": {},
+		"heading-spacing": {},
+		"list-spacing": {},
+		"list-indent-spacing": {},
+		"list-item-spacing": {},
+		"nested-list-indent-spacing": {},
+		"flow-spacing": {},
+		"figure-spacing": {},
+		"figcaption-spacing": {},
+		"blockquote-spacing": {}
+	}
+}

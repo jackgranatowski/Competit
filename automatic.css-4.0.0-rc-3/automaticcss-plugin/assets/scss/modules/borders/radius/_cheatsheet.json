@@ -1,0 +1,34 @@
+{
+	"category": "border",
+	"group": "radius",
+	"condition": {
+		"type": "=",
+		"setting": "option-rounded",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/global-border-system/"
+	},
+	"classes": {
+		"radius--xs": {},
+		"radius--s": {},
+		"radius--m": {},
+		"radius--l": {},
+		"radius--xl": {},
+		"radius--xxl": {},
+		"radius--50": {},
+		"radius--circle": {},
+		"radius--none": {}
+	},
+	"vars": {
+		"radius-xs": {},
+		"radius-s": {},
+		"radius-m": {},
+		"radius-l": {},
+		"radius-xl": {},
+		"radius-xxl": {},
+		"radius-50": {},
+		"radius-circle": {},
+		"radius-none": {}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"category": "typography",
+	"group": "text-aligns",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--left": {},
+		"text--center": {},
+		"text--right": {},
+		"text--justify": {}
+	}
+}

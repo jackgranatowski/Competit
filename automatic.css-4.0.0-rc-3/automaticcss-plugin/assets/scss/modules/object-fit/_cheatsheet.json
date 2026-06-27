@@ -1,0 +1,24 @@
+{
+	"category": "additional-styling",
+	"group": "object-fit",
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/object-fit-classes/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-object-fit",
+		"value": "on"
+	},
+	"classes": {
+		"object-fit--top-left": {},
+		"object-fit--top-center": {},
+		"object-fit--top-right": {},
+		"object-fit--center-left": {},
+		"object-fit--center-right": {},
+		"object-fit--bottom-left": {},
+		"object-fit--bottom-center": {},
+		"object-fit--bottom-right": {},
+		"object-fit--cover": {},
+		"object-fit--contain": {}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"category": "additional-styling",
+	"group": "box-shadow",
+	"condition": {
+		"type": "=",
+		"setting": "option-box-shadows",
+		"value": "on"
+	},
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/box-shadow-classes/"
+	},
+	"classes": {
+		"box-shadow--1": {},
+		"box-shadow--2": {},
+		"box-shadow--3": {},
+		"box-shadow--4": {},
+		"box-shadow--5": {}
+	},
+	"vars": {
+		"box-shadow-1": {},
+		"box-shadow-2": {},
+		"box-shadow-3": {},
+		"box-shadow-4": {},
+		"box-shadow-5": {}
+	}
+}

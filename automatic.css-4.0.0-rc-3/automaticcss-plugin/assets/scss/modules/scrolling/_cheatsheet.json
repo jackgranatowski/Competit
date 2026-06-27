@@ -1,0 +1,8 @@
+{
+	"category": "accessibility",
+	"group": "scrolling",
+	"vars": {
+		"scroll-margin": {},
+		"offset": {}
+	}
+}

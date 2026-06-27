@@ -1,0 +1,18 @@
+{
+	"category": "additional-styling",
+	"group": "flip",
+	"condition": {
+		"type": "=",
+		"setting": "option-flip",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/flip-classes/"
+	},
+	"classes": {
+		"flip--x": {},
+		"flip--y": {},
+		"flip--xy": {},
+		"flip--both": {}
+	}
+}

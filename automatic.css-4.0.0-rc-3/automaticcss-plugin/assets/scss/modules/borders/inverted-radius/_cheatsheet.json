@@ -1,0 +1,12 @@
+{
+	"category": "border",
+	"group": "inverted-radius",
+	"condition": {
+		"type": "=",
+		"setting": "option-inverted-radius-framework",
+		"value": "on"
+	},
+	"vars": {
+		"inverted-radius-parent-position": {}
+	}
+}

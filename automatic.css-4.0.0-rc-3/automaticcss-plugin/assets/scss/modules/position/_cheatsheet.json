@@ -1,0 +1,26 @@
+{
+	"category": "layout",
+	"group": "position",
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/position-classes/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-position",
+		"value": "on"
+	},
+	"class_groups": {
+		"sticky": {
+			"classes": {
+				"sticky": {},
+				"sticky-top": {
+					"variants": {
+						"sticky-top--s": {},
+						"sticky-top--m": {},
+						"sticky-top--l": {}
+					}
+				}
+			}
+		}
+	}
+}

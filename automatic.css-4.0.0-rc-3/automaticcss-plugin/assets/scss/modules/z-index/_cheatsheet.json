@@ -1,0 +1,134 @@
+{
+	"category": "layout",
+	"group": "z-index",
+	"condition": {
+		"type": "=",
+		"setting": "option-z-index",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/z-index-classes/"
+	},
+	"classes": {
+		"z--bottom": {
+			"variants": {
+				"z--xs-bottom": {},
+				"z--s-bottom": {},
+				"z--m-bottom": {},
+				"z--l-bottom": {},
+				"z--xl-bottom": {},
+				"z--xxl-bottom": {}
+			}
+		},
+		"z--0": {
+			"variants": {
+				"z--xs-0": {},
+				"z--s-0": {},
+				"z--m-0": {},
+				"z--l-0": {},
+				"z--xl-0": {},
+				"z--xxl-0": {}
+			}
+		},
+		"z--10": {
+			"variants": {
+				"z--xs-10": {},
+				"z--s-10": {},
+				"z--m-10": {},
+				"z--l-10": {},
+				"z--xl-10": {},
+				"z--xxl-10": {}
+			}
+		},
+		"z--20": {
+			"variants": {
+				"z--xs-20": {},
+				"z--s-20": {},
+				"z--m-20": {},
+				"z--l-20": {},
+				"z--xl-20": {},
+				"z--xxl-20": {}
+			}
+		},
+		"z--30": {
+			"variants": {
+				"z--xs-30": {},
+				"z--s-30": {},
+				"z--m-30": {},
+				"z--l-30": {},
+				"z--xl-30": {},
+				"z--xxl-30": {}
+			}
+		},
+		"z--40": {
+			"variants": {
+				"z--xs-40": {},
+				"z--s-40": {},
+				"z--m-40": {},
+				"z--l-40": {},
+				"z--xl-40": {},
+				"z--xxl-40": {}
+			}
+		},
+		"z--50": {
+			"variants": {
+				"z--xs-50": {},
+				"z--s-50": {},
+				"z--m-50": {},
+				"z--l-50": {},
+				"z--xl-50": {},
+				"z--xxl-50": {}
+			}
+		},
+		"z--60": {
+			"variants": {
+				"z--xs-60": {},
+				"z--s-60": {},
+				"z--m-60": {},
+				"z--l-60": {},
+				"z--xl-60": {},
+				"z--xxl-60": {}
+			}
+		},
+		"z--70": {
+			"variants": {
+				"z--xs-70": {},
+				"z--s-70": {},
+				"z--m-70": {},
+				"z--l-70": {},
+				"z--xl-70": {},
+				"z--xxl-70": {}
+			}
+		},
+		"z--80": {
+			"variants": {
+				"z--xs-80": {},
+				"z--s-80": {},
+				"z--m-80": {},
+				"z--l-80": {},
+				"z--xl-80": {},
+				"z--xxl-80": {}
+			}
+		},
+		"z--90": {
+			"variants": {
+				"z--xs-90": {},
+				"z--s-90": {},
+				"z--m-90": {},
+				"z--l-90": {},
+				"z--xl-90": {},
+				"z--xxl-90": {}
+			}
+		},
+		"z--top": {
+			"variants": {
+				"z--xs-top": {},
+				"z--s-top": {},
+				"z--m-top": {},
+				"z--l-top": {},
+				"z--xl-top": {},
+				"z--xxl-top": {}
+			}
+		}
+	}
+}

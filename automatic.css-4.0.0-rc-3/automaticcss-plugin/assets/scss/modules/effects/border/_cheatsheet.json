@@ -1,0 +1,25 @@
+{
+	"category": "additional-styling",
+	"group": "border-effects",
+	"classes": {
+		"on-hover--ripple-out": {},
+		"on-hover--ripple-in": {},
+		"on-hover--outline-out": {},
+		"on-hover--outline-in": {},
+		"on-hover--underline-left": {},
+		"on-hover--underline-center": {},
+		"on-hover--underline-right": {}
+	},
+	"vars": {
+		"border-ripple-color": {},
+		"border-ripple-width": {},
+		"border-ripple-duration": {},
+		"border-ripple-distance": {},
+		"border-outline-color": {},
+		"border-outline-width": {},
+		"border-outline-duration": {},
+		"border-underline-color": {},
+		"border-underline-width": {},
+		"border-underline-duration": {}
+	}
+}

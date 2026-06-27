@@ -1,0 +1,28 @@
+{
+	"category": "typography",
+	"group": "font-sizes",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"classes": {
+		"text--xs": {},
+		"text--s": {},
+		"text--m": {},
+		"text--l": {},
+		"text--xl": {},
+		"text--xxl": {}
+	},
+	"vars": {
+		"text-xs": {},
+		"text-s": {},
+		"text-m": {},
+		"text-l": {},
+		"text-xl": {},
+		"text-xxl": {}
+	}
+}

@@ -1,0 +1,269 @@
+{
+	"category": "layout",
+	"group": "flexbox",
+	"condition": {
+		"type": "=",
+		"setting": "option-flex",
+		"value": "on"
+	},
+	"class_groups": {
+		"flex": {
+			"documentation_links": {
+				"class_documentation": "https://automaticcss.com/docs/flexbox-classes/"
+			},
+			"classes": {
+				"flex--grow": {},
+				"flex--wrap": {},
+				"flex--col": {
+					"variants": {
+						"flex--col-s": {},
+						"flex--col-m": {},
+						"flex--col-l": {},
+						"flex--col-xl": {}
+					}
+				},
+				"flex--row": {
+					"variants": {
+						"flex--row-s": {},
+						"flex--row-m": {},
+						"flex--row-l": {},
+						"flex--row-xl": {}
+					}
+				},
+				"flex--col-reverse": {
+					"variants": {
+						"flex--col-reverse-s": {},
+						"flex--col-reverse-m": {},
+						"flex--col-reverse-l": {},
+						"flex--col-reverse-xl": {}
+					}
+				},
+				"flex--row-reverse": {
+					"variants": {
+						"flex--row-reverse-s": {},
+						"flex--row-reverse-m": {},
+						"flex--row-reverse-l": {},
+						"flex--row-reverse-xl": {}
+					}
+				}
+			}
+		},
+		"justify-content": {
+			"classes": {
+				"justify-content--start": {
+					"variants": {
+						"justify-content--start-s": {},
+						"justify-content--start-m": {},
+						"justify-content--start-l": {},
+						"justify-content--start-xl": {}
+					}
+				},
+				"justify-content--end": {
+					"variants": {
+						"justify-content--end-s": {},
+						"justify-content--end-m": {},
+						"justify-content--end-l": {},
+						"justify-content--end-xl": {}
+					}
+				},
+				"justify-content--center": {
+					"variants": {
+						"justify-content--center-s": {},
+						"justify-content--center-m": {},
+						"justify-content--center-l": {},
+						"justify-content--center-xl": {}
+					}
+				},
+				"justify-content--between": {
+					"variants": {
+						"justify-content--between-s": {},
+						"justify-content--between-m": {},
+						"justify-content--between-l": {},
+						"justify-content--between-xl": {}
+					}
+				},
+				"justify-content--around": {
+					"variants": {
+						"justify-content--around-s": {},
+						"justify-content--around-m": {},
+						"justify-content--around-l": {},
+						"justify-content--around-xl": {}
+					}
+				},
+				"justify-content--stretch": {
+					"variants": {
+						"justify-content--stretch-s": {},
+						"justify-content--stretch-m": {},
+						"justify-content--stretch-l": {},
+						"justify-content--stretch-xl": {}
+					}
+				}
+			}
+		},
+		"justify-items": {
+			"classes": {
+				"justify-items--start": {
+					"variants": {
+						"justify-items--start-s": {},
+						"justify-items--start-m": {},
+						"justify-items--start-l": {},
+						"justify-items--start-xl": {}
+					}
+				},
+				"justify-items--end": {
+					"variants": {
+						"justify-items--end-s": {},
+						"justify-items--end-m": {},
+						"justify-items--end-l": {},
+						"justify-items--end-xl": {}
+					}
+				},
+				"justify-items--center": {
+					"variants": {
+						"justify-items--center-s": {},
+						"justify-items--center-m": {},
+						"justify-items--center-l": {},
+						"justify-items--center-xl": {}
+					}
+				},
+				"justify-items--stretch": {
+					"variants": {
+						"justify-items--stretch-s": {},
+						"justify-items--stretch-m": {},
+						"justify-items--stretch-l": {},
+						"justify-items--stretch-xl": {}
+					}
+				}
+			}
+		},
+		"align-content": {
+			"classes": {
+				"align-content--start": {
+					"variants": {
+						"align-content--start-s": {},
+						"align-content--start-m": {},
+						"align-content--start-l": {},
+						"align-content--start-xl": {}
+					}
+				},
+				"align-content--end": {
+					"variants": {
+						"align-content--end-s": {},
+						"align-content--end-m": {},
+						"align-content--end-l": {},
+						"align-content--end-xl": {}
+					}
+				},
+				"align-content--center": {
+					"variants": {
+						"align-content--center-s": {},
+						"align-content--center-m": {},
+						"align-content--center-l": {},
+						"align-content--center-xl": {}
+					}
+				},
+				"align-content--baseline": {
+					"variants": {
+						"align-content--baseline-s": {},
+						"align-content--baseline-m": {},
+						"align-content--baseline-l": {},
+						"align-content--baseline-xl": {}
+					}
+				},
+				"align-content--stretch": {
+					"variants": {
+						"align-content--stretch-s": {},
+						"align-content--stretch-m": {},
+						"align-content--stretch-l": {},
+						"align-content--stretch-xl": {}
+					}
+				}
+			}
+		},
+		"align-items": {
+			"classes": {
+				"align-items--start": {
+					"variants": {
+						"align-items--start-s": {},
+						"align-items--start-m": {},
+						"align-items--start-l": {},
+						"align-items--start-xl": {}
+					}
+				},
+				"align-items--end": {
+					"variants": {
+						"align-items--end-s": {},
+						"align-items--end-m": {},
+						"align-items--end-l": {},
+						"align-items--end-xl": {}
+					}
+				},
+				"align-items--center": {
+					"variants": {
+						"align-items--center-s": {},
+						"align-items--center-m": {},
+						"align-items--center-l": {},
+						"align-items--center-xl": {}
+					}
+				},
+				"align-items--baseline": {
+					"variants": {
+						"align-items--baseline-s": {},
+						"align-items--baseline-m": {},
+						"align-items--baseline-l": {},
+						"align-items--baseline-xl": {}
+					}
+				},
+				"align-items--stretch": {
+					"variants": {
+						"align-items--stretch-s": {},
+						"align-items--stretch-m": {},
+						"align-items--stretch-l": {},
+						"align-items--stretch-xl": {}
+					}
+				}
+			}
+		},
+		"self": {
+			"classes": {
+				"self--start": {
+					"variants": {
+						"self--start-s": {},
+						"self--start-m": {},
+						"self--start-l": {},
+						"self--start-xl": {}
+					}
+				},
+				"self--end": {
+					"variants": {
+						"self--end-s": {},
+						"self--end-m": {},
+						"self--end-l": {},
+						"self--end-xl": {}
+					}
+				},
+				"self--center": {
+					"variants": {
+						"self--center-s": {},
+						"self--center-m": {},
+						"self--center-l": {},
+						"self--center-xl": {}
+					}
+				},
+				"self--stretch": {
+					"variants": {
+						"self--stretch-s": {},
+						"self--stretch-m": {},
+						"self--stretch-l": {},
+						"self--stretch-xl": {}
+					}
+				}
+			}
+		},
+		"stretch": {
+			"classes": {
+				"stretch": {}
+			}
+		}
+	}
+}

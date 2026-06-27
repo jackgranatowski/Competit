@@ -1,0 +1,30 @@
+{
+	"category": "additional-styling",
+	"group": "hover-effects",
+	"classes": {
+		"on-hover--grow": {},
+		"on-hover--shrink": {},
+		"on-hover--float": {},
+		"on-hover--sink": {},
+		"on-hover--slide-right": {},
+		"on-hover--slide-left": {},
+		"on-hover--shadow": {},
+		"on-hover--glow": {},
+		"on-hover--fade": {},
+		"on-hover--brighten": {}
+	},
+	"vars": {
+		"hover-duration": {},
+		"hover-timing": {},
+		"hover-grow-amount": {},
+		"hover-shrink-amount": {},
+		"hover-float-amount": {},
+		"hover-sink-amount": {},
+		"hover-slide-right-amount": {},
+		"hover-slide-left-amount": {},
+		"hover-shadow": {},
+		"hover-glow-color": {},
+		"hover-glow-spread": {},
+		"hover-glow-opacity": {}
+	}
+}

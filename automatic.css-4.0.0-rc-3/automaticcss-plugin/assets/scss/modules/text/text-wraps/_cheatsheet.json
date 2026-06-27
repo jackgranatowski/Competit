@@ -1,0 +1,13 @@
+{
+	"category": "typography",
+	"group": "text-wraps",
+	"condition": {
+		"type": "=",
+		"setting": "option-basic-text-classes",
+		"value": "on"
+	},
+	"classes": {
+		"balance": {},
+		"unbalance": {}
+	}
+}

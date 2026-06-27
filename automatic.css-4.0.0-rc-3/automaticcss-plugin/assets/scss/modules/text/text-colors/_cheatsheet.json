@@ -1,0 +1,196 @@
+{
+	"category": "typography",
+	"group": "text-colors",
+	"condition": {
+		"type": "=",
+		"setting": "option-text-color",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/text-classes/"
+	},
+	"class_groups": {
+		"contextual utility": {
+			"classes": {
+				"text--dark": {},
+				"text--dark-muted": {},
+				"text--light": {},
+				"text--light-muted": {}
+			},
+			"vars": {
+				"text-dark": {},
+				"text-dark-muted": {},
+				"text-light": {},
+				"text-light-muted": {}
+			}
+		},
+		"primary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-primary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--primary-ultra-dark": {},
+				"text--primary-dark": {},
+				"text--primary-semi-dark": {},
+				"text--primary": {},
+				"text--primary-semi-light": {},
+				"text--primary-light": {},
+				"text--primary-ultra-light": {},
+				"text--primary-comp": {},
+				"text--primary-hover": {}
+			}
+		},
+		"secondary": {
+			"condition": {
+				"type": "=",
+				"setting": "option-secondary-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--secondary-ultra-dark": {},
+				"text--secondary-dark": {},
+				"text--secondary-semi-dark": {},
+				"text--secondary": {},
+				"text--secondary-semi-light": {},
+				"text--secondary-light": {},
+				"text--secondary-ultra-light": {},
+				"text--secondary-comp": {},
+				"text--secondary-hover": {}
+			}
+		},
+		"accent": {
+			"condition": {
+				"type": "=",
+				"setting": "option-accent-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--accent-ultra-dark": {},
+				"text--accent-dark": {},
+				"text--accent-semi-dark": {},
+				"text--accent": {},
+				"text--accent-semi-light": {},
+				"text--accent-light": {},
+				"text--accent-ultra-light": {},
+				"text--accent-comp": {},
+				"text--accent-hover": {}
+			}
+		},
+		"base": {
+			"condition": {
+				"type": "=",
+				"setting": "option-base-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--base-ultra-dark": {},
+				"text--base-dark": {},
+				"text--base-semi-dark": {},
+				"text--base": {},
+				"text--base-semi-light": {},
+				"text--base-light": {},
+				"text--base-ultra-light": {},
+				"text--base-comp": {},
+				"text--base-hover": {}
+			}
+		},
+		"neutral": {
+			"condition": {
+				"type": "=",
+				"setting": "option-neutral-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--neutral-ultra-dark": {},
+				"text--neutral-dark": {},
+				"text--neutral-semi-dark": {},
+				"text--neutral": {},
+				"text--neutral-semi-light": {},
+				"text--neutral-light": {},
+				"text--neutral-ultra-light": {},
+				"text--neutral-comp": {},
+				"text--neutral-hover": {}
+			}
+		},
+		"black & white": {
+			"classes": {
+				"text--black": {},
+				"text--white": {}
+			}
+		},
+		"success": {
+			"condition": {
+				"type": "=",
+				"setting": "option-success-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--success-ultra-dark": {},
+				"text--success-dark": {},
+				"text--success-semi-dark": {},
+				"text--success": {},
+				"text--success-semi-light": {},
+				"text--success-light": {},
+				"text--success-ultra-light": {},
+				"text--success-comp": {},
+				"text--success-hover": {}
+			}
+		},
+		"danger": {
+			"condition": {
+				"type": "=",
+				"setting": "option-danger-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--danger-ultra-dark": {},
+				"text--danger-dark": {},
+				"text--danger-semi-dark": {},
+				"text--danger": {},
+				"text--danger-semi-light": {},
+				"text--danger-light": {},
+				"text--danger-ultra-light": {},
+				"text--danger-comp": {},
+				"text--danger-hover": {}
+			}
+		},
+		"warning": {
+			"condition": {
+				"type": "=",
+				"setting": "option-warning-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--warning-ultra-dark": {},
+				"text--warning-dark": {},
+				"text--warning-semi-dark": {},
+				"text--warning": {},
+				"text--warning-semi-light": {},
+				"text--warning-light": {},
+				"text--warning-ultra-light": {},
+				"text--warning-comp": {},
+				"text--warning-hover": {}
+			}
+		},
+		"info": {
+			"condition": {
+				"type": "=",
+				"setting": "option-info-clr",
+				"value": "on"
+			},
+			"classes": {
+				"text--info-ultra-dark": {},
+				"text--info-dark": {},
+				"text--info-semi-dark": {},
+				"text--info": {},
+				"text--info-semi-light": {},
+				"text--info-light": {},
+				"text--info-ultra-light": {},
+				"text--info-comp": {},
+				"text--info-hover": {}
+			}
+		}
+	}
+}

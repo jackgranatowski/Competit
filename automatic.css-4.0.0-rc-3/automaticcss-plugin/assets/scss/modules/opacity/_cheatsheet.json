@@ -1,0 +1,25 @@
+{
+	"category": "additional-styling",
+	"group": "opacity",
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/opacity-classes/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-opacities",
+		"value": "on"
+	},
+	"classes": {
+		"opacity--5": {},
+		"opacity--10": {},
+		"opacity--20": {},
+		"opacity--30": {},
+		"opacity--40": {},
+		"opacity--50": {},
+		"opacity--60": {},
+		"opacity--70": {},
+		"opacity--80": {},
+		"opacity--90": {},
+		"opacity--95": {}
+	}
+}

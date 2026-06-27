@@ -1,0 +1,62 @@
+{
+	"category": "cards",
+	"groups": {
+		"background-color": {
+			"vars": {
+				"light-card-background": {},
+				"dark-card-background": {},
+				"light-card-heading-color": {},
+				"dark-card-heading-color": {},
+				"light-card-text-color": {},
+				"dark-card-text-color": {},
+				"light-card-link-color": {},
+				"dark-card-link-color": {},
+				"light-card-link-hover-color": {},
+				"dark-card-link-hover-color": {},
+				"light-card-button-style": {},
+				"dark-card-button-style": {},
+				"light-card-avatar-border-color": {},
+				"dark-card-avatar-border-color": {},
+				"light-card-border-color": {},
+				"dark-card-border-color": {},
+				"light-card-shadow": {},
+				"dark-card-shadow": {}
+			}
+		},
+		"spacing": {
+			"vars": {
+				"card-padding": {},
+				"card-gap": {}
+			}
+		},
+		"typography": {
+			"vars": {
+				"card-text-size": {},
+				"card-heading-size": {},
+				"card-line-height": {}
+			}
+		},
+		"icons": {
+			"vars": {
+				"card-icon-size": {},
+				"card-icon-radius": {}
+			}
+		},
+		"avatars": {
+			"vars": {
+				"card-avatar-size": {},
+				"card-avatar-radius": {},
+				"card-avatar-border-width": {},
+				"card-avatar-border-color": {},
+				"card-avatar-border-style": {}
+			}
+		},
+		"media": {
+			"vars": {
+				"card-media-radius": {},
+				"card-media-aspect-ratio": {},
+				"card-media-object-fit": {}
+			}
+		}
+	}
+}

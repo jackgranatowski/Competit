@@ -1,0 +1,39 @@
+{
+	"category": "layout",
+	"group": "display",
+	"condition": {
+		"type": "=",
+		"setting": "option-display",
+		"value": "on"
+	},
+	"documentation_links": {
+		"class_documentation": "https://automaticcss.com/docs/display-classes/"
+	},
+	"classes": {
+		"display--inline": {},
+		"display--contents": {},
+		"display--inline-block": {},
+		"display--inline-flex": {},
+		"display--list-item": {},
+		"display--block": {
+			"variants": {
+				"display--xs-block": {},
+				"display--s-block": {},
+				"display--m-block": {},
+				"display--l-block": {},
+				"display--xl-block": {},
+				"display--xxl-block": {}
+			}
+		},
+		"display--none": {
+			"variants": {
+				"display--xs-none": {},
+				"display--s-none": {},
+				"display--m-none": {},
+				"display--l-none": {},
+				"display--xl-none": {},
+				"display--xxl-none": {}
+			}
+		}
+	}
+}

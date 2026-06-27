@@ -1,0 +1,10 @@
+{
+	"category": "accessibility",
+	"group": "hidden-accessible",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/hidden-accessible-class/"
+	},
+	"classes": {
+		"hidden-accessible": {}
+	}
+}

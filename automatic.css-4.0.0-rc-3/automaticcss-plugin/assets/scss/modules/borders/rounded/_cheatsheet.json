@@ -1,0 +1,22 @@
+{
+	"category": "border",
+	"group": "rounded",
+	"documentation_links": {
+		"default_documentation": "https://automaticcss.com/docs/global-border-system/"
+	},
+	"condition": {
+		"type": "=",
+		"setting": "option-rounded",
+		"value": "on"
+	},
+	"classes": {
+		"rounded--xs": {},
+		"rounded--s": {},
+		"rounded--m": {},
+		"rounded--l": {},
+		"rounded--xl": {},
+		"rounded--xxl": {},
+		"rounded--50": {},
+		"rounded--circle": {}
+	}
+}
