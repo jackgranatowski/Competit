@@ -1,0 +1,150 @@
+// ============================================================
+// ACSS 4.0.0-rc-3 — Full Compilation (All Features On)
+// All $option-* flags forced on before importing the framework.
+// Platform-specific integrations (Bricks, ws-form, fluent-form,
+// etch) intentionally left off — they require external plugins.
+// ============================================================
+
+// --- Platform integrations — explicitly off (require external plugins) ---
+$option-bricks: off;
+$option-bricks-css-first: off;
+$option-bricks-css-improved: off;
+$option-bricks-pro-mode: off;
+$option-bricks-replace-components-with-frames: off;
+$option-bricks-stack-elements: off;
+$option-ws-form: off;
+$option-fluent-form: off;
+$option-etch: off;
+$option-load-stylesheets-last: off;
+
+// --- Layer controls ---
+$option-layer-utilities: on;
+
+// --- Core options ---
+$option-classless: on;
+$option-text-color: on;
+$option-basic-text-classes: on;
+$option-link-color: on;
+$option-text-size-classes: on;
+$option-balance-text: on;
+$option-balance-headings: on;
+
+// --- Spacing & layout ---
+$option-auto-grid: on;
+$option-variable-grid: on;
+$option-grid: on;
+$option-grid-gap: on;
+$option-flex-grids: on;
+$option-content-grid: on;
+$option-content-grid-sections: on;
+$option-container-gap: on;
+$option-content-gap: on;
+$option-columns: on;
+$option-order: on;
+$option-boxed-layout: on;
+$option-offset-page-content: on;
+
+// --- Color & backgrounds ---
+$option-background-classes: on;
+$option-ref-color-tokens: on;
+
+// --- Typography & links ---
+$option-indicate-external-links: on;
+$option-link-classes-use-decoration-color: on;
+$option-link-default-not: on;
+
+// --- Borders & radius ---
+$option-border-classes: on;
+$option-border-outline: on;
+$option-border-ripple: on;
+$option-border-underline: on;
+$option-radius-sizes: on;
+$option-rounded: on;
+$option-divider-classes: on;
+
+// --- Cards ---
+$option-card-boxed-icons: on;
+$option-card-concentric-radius: on;
+$option-cards-use-grid: on;
+
+// --- Lists ---
+$option-lists-markers: on;
+$option-boxed-list-icons: on;
+
+// --- Effects — entrance animations ---
+$option-enter-fade: on;
+$option-enter-slide: on;
+$option-enter-grow: on;
+$option-enter-shrink: on;
+$option-enter-float: on;
+$option-enter-sink: on;
+$option-enter-blur: on;
+$option-enter-parallax: on;
+
+// --- Effects — exit animations ---
+$option-exit-fade: on;
+$option-exit-slide: on;
+$option-exit-grow: on;
+$option-exit-shrink: on;
+$option-exit-float: on;
+$option-exit-sink: on;
+$option-exit-blur: on;
+
+// --- Effects — hover ---
+$option-hover-fade: on;
+$option-hover-grow: on;
+$option-hover-shrink: on;
+$option-hover-float: on;
+$option-hover-sink: on;
+$option-hover-glow: on;
+$option-hover-shadow: on;
+$option-hover-brighten: on;
+$option-hover-slide-left: on;
+$option-hover-slide-right: on;
+
+// --- Effects — visible ---
+$option-visible-fade: on;
+$option-visible-slide: on;
+$option-visible-grow: on;
+$option-visible-shrink: on;
+$option-visible-float: on;
+$option-visible-sink: on;
+$option-visible-blur: on;
+
+// --- Overlays & gradients ---
+$option-basic-overlays: on;
+$option-gradient-fades: on;
+
+// --- Object fit & media ---
+$option-object-fit: on;
+$option-auto-object-fit: on;
+
+// --- Utilities ---
+$option-line-clamp-classes: on;
+$option-overflow-detection: on;
+$option-accessibility-classes: on;
+$option-corner-ribbons: on;
+
+// --- PHP-injected breakpoints map and mixin (normally built at runtime from WP settings) ---
+// Default values match ACSS standard breakpoints (vp-max: 1366px default)
+$breakpoints: (
+  "xs": 576px,
+  "s":  768px,
+  "m":  1024px,
+  "l":  1280px,
+  "xl": 1366px,
+  "xxl": 1920px,
+);
+
+@mixin breakpoint($size) {
+  $value: map-get($breakpoints, $size);
+  @if $value == null {
+    @error "Unknown breakpoint `#{$size}`. Expected one of: #{map-keys($breakpoints)}";
+  }
+  @media (max-width: #{$value}) {
+    @content;
+  }
+}
+
+// --- Import the full framework ---
+@import "automatic";

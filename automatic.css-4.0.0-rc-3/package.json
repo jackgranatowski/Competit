@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "sass automaticcss-plugin/assets/scss/_all-features.scss ../automatic.css-acss-4.0.0-rc-3-full.css --no-source-map --silence-deprecation=import --silence-deprecation=if-function"
+  },
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}

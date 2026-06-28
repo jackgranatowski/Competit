@@ -1,4 +1,5 @@
 @mixin style-external-links() {
+    $external-link-pseudo-selector: "::after"; // default; overridden below
     @if $external-link-indicator-position == "start" {
         --external-link-indicator-order: -1;
 		$external-link-pseudo-selector: "::before";
