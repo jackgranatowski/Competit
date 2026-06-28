@@ -2,11 +2,11 @@
     $external-link-pseudo-selector: "::after"; // default; overridden below
     @if $external-link-indicator-position == "start" {
         --external-link-indicator-order: -1;
-		$external-link-pseudo-selector: "::before" !global;
+		$external-link-pseudo-selector: "::before";
     }
     @if $external-link-indicator-position == "end" {
         --external-link-indicator-order: 0;
-		$external-link-pseudo-selector: "::after" !global;
+		$external-link-pseudo-selector: "::after";
     }
     &#{$external-link-pseudo-selector} {
         content: "#{$external-link-indicator}" / "#{$external-link-indicator-accessibility-text}";

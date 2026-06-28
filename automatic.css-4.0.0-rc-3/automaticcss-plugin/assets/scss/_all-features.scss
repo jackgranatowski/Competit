@@ -5,6 +5,18 @@
 // etch) intentionally left off — they require external plugins.
 // ============================================================
 
+// --- Platform integrations — explicitly off (require external plugins) ---
+$option-bricks: off;
+$option-bricks-css-first: off;
+$option-bricks-css-improved: off;
+$option-bricks-pro-mode: off;
+$option-bricks-replace-components-with-frames: off;
+$option-bricks-stack-elements: off;
+$option-ws-form: off;
+$option-fluent-form: off;
+$option-etch: off;
+$option-load-stylesheets-last: off;
+
 // --- Layer controls ---
 $option-layer-utilities: on;
 
@@ -126,10 +138,11 @@ $breakpoints: (
 
 @mixin breakpoint($size) {
   $value: map-get($breakpoints, $size);
-  @if $value {
-    @media (max-width: #{$value}) {
-      @content;
-    }
+  @if $value == null {
+    @error "Unknown breakpoint `#{$size}`. Expected one of: #{map-keys($breakpoints)}";
+  }
+  @media (max-width: #{$value}) {
+    @content;
   }
 }
 
